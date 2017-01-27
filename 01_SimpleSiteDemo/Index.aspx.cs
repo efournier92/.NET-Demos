@@ -11,9 +11,10 @@ public partial class Index : System.Web.UI.Page
     {
         var height = 65.00;
         // binds var height to div sampleLabel
-        sampleLabel.Text = "Ringo's height is " + height;
+        // $ allows for string interpolation
+        sampleLabel.Text = $"Ringo's height is {height}";
         height = 55.5;
         // appends new text to existing string
-        sampleLabel.Text += "<br>George's height is " + height;
+        sampleLabel.Text += $"<br>George's height is {height}";
     }
 }
