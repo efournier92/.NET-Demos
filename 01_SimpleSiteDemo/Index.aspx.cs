@@ -16,5 +16,8 @@ public partial class Index : System.Web.UI.Page
         height = 55.5;
         // appends new text to existing string
         sampleLabel.Text += $"<br>George's height is {height}";
+
+        const double dollars = 25.1556;
+        sampleLabel.Text += $"<br>{dollars} formatted a currency is {dollars:C}";
     }
 }
