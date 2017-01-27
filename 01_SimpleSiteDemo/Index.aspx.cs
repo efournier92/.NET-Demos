@@ -31,6 +31,13 @@ public partial class Index : System.Web.UI.Page
         var positiveBalance = true;
         sampleLabel.Text += $"<br>Do I have a pisitive financial balance on {DateTime.Now:d}? (<b>{positiveBalance})</b>";
 
+        // declare and set 2 variable for 2 different salaries
+        decimal salaryOne = 25000, salaryTwo = 65000;
+        var totalSalary = salaryOne + salaryTwo;
+        sampleLabel.Text += $"<br>Total salary is {totalSalary:C}";
 
+        decimal averageSalary = totalSalary / 2;
+        sampleLabel.Text += $"<br>Average salary is {averageSalary:C}";
+        
     }
 }
