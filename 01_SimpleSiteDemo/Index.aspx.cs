@@ -37,7 +37,17 @@ public partial class Index : System.Web.UI.Page
         sampleLabel.Text += $"<br>Total salary is {totalSalary:C}";
 
         decimal averageSalary = totalSalary / 2;
-        sampleLabel.Text += $"<br>Average salary is {averageSalary:C}";
-        
+        sampleLabel.Text += $"<br>Average salary is {averageSalary:C}"; 
+    }
+
+    // runs when text is changed inside sampleTextBox
+    protected void TextBox1_TextChanged(object sender, EventArgs e)
+    {
+        // read value from box's text property
+        var input = TextBox1.Text;
+        // convert is a class that stores the ToDouble method
+        var x = Convert.ToDouble(input);
+        // x*1.1 produces 110% of x's value
+        sampleLabel.Text += $"<br>{x} increased by 10% is {x * 1.1}";
     }
 }

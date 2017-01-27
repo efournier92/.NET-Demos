@@ -11,6 +11,8 @@
             Super Simple C# Webpage!
         </div>
         <p>
+            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+            <br />
             <asp:Label ID="sampleLabel" runat="server"></asp:Label>
         </p>
     </form>
