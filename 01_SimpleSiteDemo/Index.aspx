@@ -8,9 +8,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        Super Simple C# Webpage!
-    </div>
+        <div>
+            Super Simple C# Webpage!
+        </div>
+        <p>
+            <asp:Label ID="sampleLabel" runat="server"></asp:Label>
+        </p>
     </form>
 </body>
 </html>
