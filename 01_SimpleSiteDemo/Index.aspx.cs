@@ -9,8 +9,11 @@ public partial class Index : System.Web.UI.Page
     // runs when the page loads
     protected void Page_Load(object sender, EventArgs e)
     {
-        // label is an object
-        // objects pass features, like text property
-        sampleLabel.Text = "Hello, World!";
+        var height = 65.00;
+        // binds var height to div sampleLabel
+        sampleLabel.Text = "Ringo's height is " + height;
+        height = 55.5;
+        // appends new text to existing string
+        sampleLabel.Text += "<br>George's height is " + height;
     }
 }
