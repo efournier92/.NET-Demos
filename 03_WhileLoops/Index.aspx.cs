@@ -14,13 +14,13 @@ public partial class Index : System.Web.UI.Page
 
     protected void sampleButton_Click(object sender, EventArgs e)
     {
-        int numTimes = 5; // Represents how many times the loop in run
-        int counter = 1;
+        var numTimes = 5; // Represents how many times the loop in run
+        var counter = 1;
 
         while (counter <= numTimes)
         {
-            
-        }
-
+            sampleLabel.Text += "<br>" + counter + " Squared = " + Math.Pow(counter,2);
+            counter++;
+        }    
     }
 }
