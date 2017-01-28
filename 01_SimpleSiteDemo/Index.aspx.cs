@@ -37,7 +37,7 @@ public partial class Index : System.Web.UI.Page
         sampleLabel.Text += $"<br>Total salary is {totalSalary:C}";
 
         decimal averageSalary = totalSalary / 2;
-        sampleLabel.Text += $"<br>Average salary is {averageSalary:C}"; 
+        sampleLabel.Text += $"<br>Average salary is {averageSalary:C}";
     }
 
     // runs when text is changed inside sampleTextBox
@@ -49,5 +49,8 @@ public partial class Index : System.Web.UI.Page
         var x = Convert.ToDouble(input);
         // x*1.1 produces 110% of x's value
         sampleLabel.Text += $"<br>{x} increased by 10% is {x * 1.1}";
+        bool isLetterPresent = (TextBox1.Text).ToLower().Contains("e");
+        sampleLabel.Text += $"<br>It's {isLetterPresent} that your input contains 'e'";
     }
-}
+
+ }

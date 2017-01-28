@@ -11,8 +11,10 @@
             Super Simple C# Webpage!
         </div>
         <p>
-            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" Height="22px" OnTextChanged="TextBox1_TextChanged" Width="128px"></asp:TextBox>
             <br />
+        </p>
+        <p>
             <asp:Label ID="sampleLabel" runat="server"></asp:Label>
         </p>
     </form>
