@@ -2,6 +2,7 @@
 // system is a namespace
 // using System includes existing code in project
 using System;
+using System.Text;
 
 // class isa required container for creating code samples
 public partial class Index : System.Web.UI.Page
@@ -53,4 +54,17 @@ public partial class Index : System.Web.UI.Page
         sampleLabel.Text += $"<br>It's {isLetterPresent} that your input contains 'e'";
     }
 
- }
+
+    protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+    {
+        // check whether checkbox is checked
+        if (CheckBox1.Checked)
+        {
+            Panel1.Visible = true;
+        }
+        else
+        {
+            Panel1.Visible = false;
+        }
+    }
+}

@@ -13,10 +13,13 @@
         <p>
             <asp:TextBox ID="TextBox1" runat="server" Height="22px" OnTextChanged="TextBox1_TextChanged" Width="128px"></asp:TextBox>
             <br />
+            <asp:CheckBox ID="CheckBox1" runat="server" AutoPostBack="true" checked="True" OnCheckedChanged="CheckBox1_CheckedChanged" />
         </p>
         <p>
-            <asp:Label ID="sampleLabel" runat="server"></asp:Label>
         </p>
+        <asp:Panel ID="Panel1" runat="server">
+            <asp:Label ID="sampleLabel" runat="server"></asp:Label>
+        </asp:Panel>
     </form>
 </body>
 </html>
