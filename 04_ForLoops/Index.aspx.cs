@@ -20,8 +20,13 @@ public partial class Index : System.Web.UI.Page
 
     protected void forEachTextBox_TextChanged(object sender, EventArgs e)
     {
-        string input = forEachTextBox.Text;
+        var input = forEachTextBox.Text;
+        var charCount = 0;
         foreach (var c in input)
-
+        {
+            forEachLabel.Text += "<br>" + c;
+            charCount++;
+        }
+        forEachLabel.Text += "<br><br>Input Has <b>" + charCount + "</b> Characters";
     }
 }
