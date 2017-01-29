@@ -8,9 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+        <asp:Button ID="sampleButton" runat="server" Text="Fill Box" OnClick="sampleButton_Click" />
+        <br>
+        <asp:ListBox ID="sampleListBox" runat="server"></asp:ListBox>
     </form>
 </body>
 </html>

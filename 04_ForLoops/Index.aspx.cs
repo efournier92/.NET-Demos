@@ -11,4 +11,10 @@ public partial class Index : System.Web.UI.Page
     {
 
     }
+
+    protected void sampleButton_Click(object sender, EventArgs e)
+    {
+        for (int i = 1; i <= 10; i++)
+            sampleListBox.Items.Add(i.ToString());
+    }
 }
