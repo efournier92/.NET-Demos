@@ -7,8 +7,15 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        
+    <form id="switchDropDown" runat="server">
+        <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+            <asp:ListItem>Apples</asp:ListItem>
+            <asp:ListItem>Peaches</asp:ListItem>
+            <asp:ListItem>Pears</asp:ListItem>
+            <asp:ListItem>Plums</asp:ListItem>
+        </asp:DropDownList>
+        <br>
+        <asp:Label ID="switchLabel" runat="server"></asp:Label>
     </form>
 </body>
 </html>
