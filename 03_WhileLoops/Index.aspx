@@ -8,13 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-        <asp:Button ID="sampleButton" runat="server" Text="List Squares" OnClick="sampleButton_Click" />
-        <br />
-        <asp:Label ID="sampleLabel" runat="server"></asp:Label>
-    
-    </div>
+        <div>
+            <asp:TextBox ID="numSquares" runat="server" OnTextChanged="numSquares_TextChanged"></asp:TextBox>
+            <br />
+            <asp:Label ID="sampleLabel" runat="server"></asp:Label>
+
+        </div>
+
     </form>
 </body>
 </html>
