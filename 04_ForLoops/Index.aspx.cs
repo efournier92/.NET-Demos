@@ -17,4 +17,11 @@ public partial class Index : System.Web.UI.Page
         for (int i = 1; i <= 10; i++)
             sampleListBox.Items.Add(i.ToString());
     }
+
+    protected void forEachTextBox_TextChanged(object sender, EventArgs e)
+    {
+        string input = forEachTextBox.Text;
+        foreach (var c in input)
+
+    }
 }
