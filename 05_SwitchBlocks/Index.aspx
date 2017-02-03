@@ -8,11 +8,12 @@
 </head>
 <body>
     <form id="switchDropDown" runat="server">
-        <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-            <asp:ListItem>Apples</asp:ListItem>
-            <asp:ListItem>Peaches</asp:ListItem>
-            <asp:ListItem>Pears</asp:ListItem>
-            <asp:ListItem>Plums</asp:ListItem>
+        <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True">
+            <asp:ListItem Selected="True"></asp:ListItem>
+            <asp:ListItem>Apple</asp:ListItem>
+            <asp:ListItem Value="Peach">Peach</asp:ListItem>
+            <asp:ListItem>Pear</asp:ListItem>
+            <asp:ListItem>Plum</asp:ListItem>
         </asp:DropDownList>
         <br>
         <asp:Label ID="switchLabel" runat="server"></asp:Label>
