@@ -18,19 +18,19 @@ public partial class Index : System.Web.UI.Page
         {
             case "Apple": // case label
                 Page.Title = "Apples"; // sets title of page as program runs
-                switchLabel.Text = "Apples cost 25 cents each.";
+                switchLabel.Text = "Apples cost 25\u00A2 each.";
                 break; // exit the switch block
             case "Peach":
                 Page.Title = "Peach";
-                switchLabel.Text = "Peaches cost 50 cents each.";
+                switchLabel.Text = "Peaches cost 50\u00A2 each.";
                 break;
             case "Pear":
                 Page.Title = "Pear";
-                switchLabel.Text = "Pears cost 30 cents each.";
+                switchLabel.Text = "Pears cost 30\u00A2 each.";
                 break;
             case "Plum":
                 Page.Title = "Plum";
-                switchLabel.Text = "Plums cost 75 cents each.";
+                switchLabel.Text = "Plums cost 75 \u00A2 each.";
                 break;
         }
     }
