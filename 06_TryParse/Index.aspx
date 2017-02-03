@@ -8,6 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:Button ID="tryParseButton" runat="server" Text="Button" /><br>
+        <asp:TextBox ID="tryParseTextBox" runat="server"></asp:TextBox><br>
+        <asp:Label ID="tryParseLabel" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>
