@@ -10,7 +10,8 @@
     <form id="form1" runat="server">
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
-        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <asp:Button ID="SummarizeButton" runat="server" Text="Summarize" OnClick="SummarizeButton_Click" /><br />
+        <asp:Label ID="Label" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>

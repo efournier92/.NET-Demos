@@ -11,4 +11,18 @@ public partial class Index : System.Web.UI.Page
     {
 
     }
+    
+    protected void SummarizeButton_Click(object sender, EventArgs e)
+    {
+        // create array that can store 2 entries
+        decimal[] values = new decimal[2];
+        // converts & saves value from box to values[0]
+        values[0] = decimal.Parse(TextBox1.Text);
+        // converts & saves value from box to values[1]
+        values[1] = decimal.Parse(TextBox2.Text);
+        // add array values together
+        decimal total = values[0] + values[1];
+        // display total value
+        Label.Text = "Total Is " + total;
+    }
 }
