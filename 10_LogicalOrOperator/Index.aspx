@@ -11,7 +11,7 @@
         <asp:CheckBox ID="CheckBox1" runat="server" Text="Male" /><br />
         <asp:CheckBox ID="CheckBox2" runat="server" Text="Under 45" /><br />
         <asp:Button ID="Button" runat="server" Text="Button" OnClick="Button_Click" /><br />
-        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>
