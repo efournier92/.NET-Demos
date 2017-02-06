@@ -8,8 +8,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
+        Enter Value: <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
+        Enter Value: <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
         <asp:Button ID="SaveButton" runat="server" Text="Save" OnClick="SaveButton_Click" /><br />
         <asp:Label ID="Label" runat="server" Text=""></asp:Label>
     </form>
