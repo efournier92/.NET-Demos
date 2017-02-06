@@ -18,11 +18,13 @@ public partial class Index : System.Web.UI.Page
         decimal[] values = new decimal[2];
         // converts & saves value from box to values[0]
         values[0] = decimal.Parse(TextBox1.Text);
-        // converts & saves value from box to values[1]
+        // converts & saves value from box to valu es[1]
         values[1] = decimal.Parse(TextBox2.Text);
         // add array values together
         decimal total = values[0] + values[1];
         // display total value
         Label.Text = "Total Is " + total;
+        // return arithmetical average
+        Label.Text += "<br>Average Is " + (total / values.Length);
     }
 }
