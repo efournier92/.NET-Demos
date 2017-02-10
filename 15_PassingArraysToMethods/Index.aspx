@@ -8,9 +8,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+        <asp:Button ID="Button" runat="server" Text="Sum" OnClick="Button_Click"/><br />
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
