@@ -15,6 +15,11 @@ public partial class Index : System.Web.UI.Page
 
     protected void Button_Click(object sender, EventArgs e)
     {
-
+        // This is the amount one which we want to calculate interest
+        decimal principle = 4500; // The goes in the ref keyword, so its value must be set here
+        decimal interest; // This is the out value, which doesn't need to be set here
+        GetValueAndInterest(out interest, ref principle);
+        Label.Text = "Final amount is " + principle;
+        Label.Text += "<br>Interest is " + interest;
     }
 }
