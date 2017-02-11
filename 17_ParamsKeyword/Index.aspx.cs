@@ -26,6 +26,8 @@ public partial class Index : System.Web.UI.Page
 
     protected void Button_Click(object sender, EventArgs e)
     {
-
+        double x = 5, y = 10, z = 15;
+        Label.Text = x + "*" + y + "=" + Product(x, y);
+        Label.Text += "<br>" + x + "*" + y + "*" + z + "=" + Product(x, y, z);
     }
 }
