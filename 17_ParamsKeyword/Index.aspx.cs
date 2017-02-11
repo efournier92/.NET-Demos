@@ -11,4 +11,21 @@ public partial class Index : System.Web.UI.Page
     {
 
     }
+
+    // params keyword lets us pass a variable number of values into a method
+    // Product(1,2) or Product(-3,4,3,6)
+    private static double Product(params double[] arr)
+    {
+        double product = 1;
+
+        foreach (double d in arr)
+            product *= d;
+
+        return product;
+    }
+
+    protected void Button_Click(object sender, EventArgs e)
+    {
+
+    }
 }
