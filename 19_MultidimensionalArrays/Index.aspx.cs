@@ -14,6 +14,7 @@ public partial class Index : System.Web.UI.Page
 
     protected void Button_Click(object sender, EventArgs e)
     {
+        Label.Text = "";
         double[,] arr = new double[2, 2]; // Declares and sets 2x2 array (has 4 cells)
         arr[0, 0] = 45;
         arr[0, 1] = 34;
@@ -23,7 +24,9 @@ public partial class Index : System.Web.UI.Page
         foreach (double d in arr)
         {
             sum += d; // Add entries together
-            Label.Text = "Sum is " + sum;
+            Label.Text += "Sum is " + sum;
         }
+
+        Label.Text += "The value at index (0, 1) is " + arr[0, 1];
     }
-}
+};
