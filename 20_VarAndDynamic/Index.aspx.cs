@@ -15,11 +15,14 @@ public partial class Indexc : System.Web.UI.Page
     protected void Button_Click(object sender, EventArgs e)
     {
         dynamic z = Convert.ToDouble(TextBox1.Text);
-        Label.Text = z + " increased by 10% is " + Increase(z);
+        Label.Text = z + " increase d by 10% is " + Increase(z);
         z = Convert.ToInt32(TextBox2.Text); // z's type can be changed dynamically
         Label.Text += "<br>" + z + " increased by 10% is " + Increase(z);
         var title = "Welcome"; // System automatically defines type
         Page.Title = title;
-
+        foreach (var c in Page.Title)
+        {
+            Label.Text += c.ToString().ToUpper();
+        }       
     }
 }
