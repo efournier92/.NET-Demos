@@ -15,6 +15,11 @@ public partial class Index : System.Web.UI.Page
         {
             balance = bal;
         }
+
+        public string GetBalance()
+        {
+            return "Balance:"
+        }
     }
 
 
