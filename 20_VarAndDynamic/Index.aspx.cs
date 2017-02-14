@@ -12,6 +12,11 @@ public partial class Indexc : System.Web.UI.Page
 
     }
 
+    private static dynamic Increase(dynamic x)
+    {
+        return x * 1.1;
+    }
+
     protected void Button_Click(object sender, EventArgs e)
     {
         dynamic z = Convert.ToDouble(TextBox1.Text);
