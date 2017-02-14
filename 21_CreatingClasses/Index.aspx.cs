@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 public partial class Index : System.Web.UI.Page
 {
-    class BankAccount
+    public class BankAccount
     {
         private decimal balance;// instance variable, reachable only within this class
 
@@ -18,14 +18,13 @@ public partial class Index : System.Web.UI.Page
 
         public string GetBalance()
         {
-            return "Balance:"
+            return "Balance: " + balance;
         }
     }
 
-
-
-    protected void Page_Load(object sender, EventArgs e)
+    protected void Button_Click(object sender, EventArgs e)
     {
-
+        var ba = new BankAccount(5002);
+        Label.Text = ba.GetBalance();
     }
 }
