@@ -11,4 +11,11 @@ public partial class Indexc : System.Web.UI.Page
     {
 
     }
+
+    protected void Button_Click(object sender, EventArgs e)
+    {
+        dynamic z = Convert.ToDouble(TextBox1.Text);
+        Label.Text = z + " increased by 10% is " + Increase(z);
+
+    }
 }
