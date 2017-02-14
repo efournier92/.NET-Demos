@@ -20,5 +20,6 @@ public partial class Indexc : System.Web.UI.Page
         Label.Text += "<br>" + z + " increased by 10% is " + Increase(z);
         var title = "Welcome"; // System automatically defines type
         Page.Title = title;
+
     }
 }
