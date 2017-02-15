@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="Index" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="Index" %>
 
 <!DOCTYPE html>
 
@@ -8,9 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+        Truck Name:<asp:TextBox ID="TextBox" runat="server"></asp:TextBox><br />
+        
+        <div style="text-align: center;">
+            <asp:Label runat="server"></asp:Label>
+        </div><br />
+
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
