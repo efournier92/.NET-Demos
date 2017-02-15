@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web.UI.WebControls;
 
 public class Circle // a template for making circle objects
 {
@@ -26,8 +27,9 @@ public class Circle // a template for making circle objects
 
 public partial class Index : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
+    protected void TextBox_TextChanged(object sender, EventArgs e)
     {
-
+        var circ = new Circle();
+        circ.Radius = double.Parse(TextBox.Text);
     }
 }
