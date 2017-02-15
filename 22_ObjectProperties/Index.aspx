@@ -8,7 +8,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        
+        <asp:TextBox ID="TextBox" runat="server" OnTextChanged="TextBox_TextChanged"></asp:TextBox><br />
+        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>

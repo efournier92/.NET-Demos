@@ -11,16 +11,8 @@ public class Circle // a template for making circle objects
         {
             return _radius;
         }
-        set
-        {
-            if (value >= 0)
-            {
-                _radius = value;
-            }
-            else
-            {
-                _radius = 0;
-            }
+        set {
+            _radius = value >= 0 ? value : 0;
         }
     }
 }
@@ -29,7 +21,7 @@ public partial class Index : System.Web.UI.Page
 {
     protected void TextBox_TextChanged(object sender, EventArgs e)
     {
-        var circ = new Circle();
-        circ.Radius = double.Parse(TextBox.Text);
+        var circ = new Circle {Radius = double.Parse(TextBox.Text)};
+        Label.Text = "Circumference is " + (2 * Math.PI * circ.Radius);
     }
 }
