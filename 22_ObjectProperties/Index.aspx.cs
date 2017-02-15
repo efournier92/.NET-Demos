@@ -22,6 +22,6 @@ public partial class Index : System.Web.UI.Page
     protected void TextBox_TextChanged(object sender, EventArgs e)
     {
         var circ = new Circle {Radius = double.Parse(TextBox.Text)};
-        Label.Text = "Circumference is " + (2 * Math.PI * circ.Radius);
+        Label.Text = "Circumference: " + (2 * Math.PI * circ.Radius);
     }
 }

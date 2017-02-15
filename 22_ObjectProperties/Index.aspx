@@ -8,8 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        Enter Radius: 
         <asp:TextBox ID="TextBox" runat="server" OnTextChanged="TextBox_TextChanged"></asp:TextBox><br />
-        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
