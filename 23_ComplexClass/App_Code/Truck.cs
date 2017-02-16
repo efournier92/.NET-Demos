@@ -1,4 +1,6 @@
-﻿/// <summary>
+﻿using System;
+
+/// <summary>
 /// Truck Class
 /// </summary>
 
@@ -11,6 +13,12 @@ public class Truck
         _make = name;
         _count++;
     }
-    public static int TruckCount => _count;
+    public static int TruckCount
+    {
+        get
+        {
+            return _count;
+        }
+    }
 }
     
