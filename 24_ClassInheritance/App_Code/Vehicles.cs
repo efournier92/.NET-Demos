@@ -13,7 +13,7 @@ public class Vehicle
     private string make;
     private string model;
 
-    public Vehicle(string mk, string mod)
+    protected Vehicle(string mk, string mod)
     {
         make = mk;
         model = mod;
