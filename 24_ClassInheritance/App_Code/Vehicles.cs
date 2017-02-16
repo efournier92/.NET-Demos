@@ -13,14 +13,14 @@ public class Vehicle
     private string make;
     private string model;
 
-    protected Vehicle(string mk, string mod)
+    public Vehicle(string mk, string mod)
     {
         make = mk;
         model = mod;
     }
 
     // get vehicle make
-    protected string GetMake()
+    public string GetMake()
     {
         return make;
     }
@@ -36,3 +36,12 @@ public class Truck : Vehicle
     }
 }
 
+public class Sedan : Vehicle
+{
+    public Sedan(string mk, string mod) : base(mk, mod) { }
+
+    public string GetSedanMake()
+    {
+        return GetMake();
+    }
+}
