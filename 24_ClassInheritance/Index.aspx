@@ -8,7 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        
+        Enter Sedan Make & Model: <asp:TextBox ID="SedanTextBox" runat="server"></asp:TextBox><br />
+        Enter Truck Make & Model: <asp:TextBox ID="TruckTextBox" runat="server"></asp:TextBox><br />
+        <asp:Button ID="GetMakeButton" runat="server" Text="Get Make" OnClick="GetMakeButton_Click" />
     </form>
 </body>
 </html>
