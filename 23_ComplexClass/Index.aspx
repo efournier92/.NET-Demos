@@ -8,11 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        Truck Name:<asp:TextBox ID="TextBox" runat="server"></asp:TextBox><br />
+        Truck Name: <asp:TextBox ID="TextBox" runat="server" OnTextChanged="TextBox_TextChanged"></asp:TextBox><br />
         
-        <div style="text-align: center;">
-            <asp:Label runat="server"></asp:Label>
-        </div><br />
+        <asp:Label runat="server"></asp:Label><br />
 
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>

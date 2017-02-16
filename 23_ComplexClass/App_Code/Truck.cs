@@ -1,23 +1,16 @@
-﻿using System;
-
-/// <summary>
+﻿/// <summary>
 /// Truck Class
 /// </summary>
 
 public class Truck
 {
-    private string make;
-    private static int count;
+    private string _make;
+    public static int _count;
     public Truck(string name)
     {
-        make = name;
-        count++;
+        _make = name;
+        _count++;
     }
-    public static int TruckCount
-    {
-        get
-        {
-            return count;
-        }
-    }
+    public static int TruckCount => _count;
 }
+    
