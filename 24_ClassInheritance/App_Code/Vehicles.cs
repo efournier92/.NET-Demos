@@ -26,3 +26,13 @@ public class Vehicle
     }
 }
 
+public class Truck : Vehicle
+{
+    public Truck(string mk, string mod) : base(mk, mod) { }
+
+    public string GetTruckMake()
+    {
+        return GetMake();
+    }
+}
+
