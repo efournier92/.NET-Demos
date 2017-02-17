@@ -10,10 +10,10 @@ using System.Web;
 public class Vehicle
 {
     // instance variables
-    private string make;
-    private string model;
+    public string make;
+    public string model;
 
-    protected Vehicle(string mk, string mod)
+    public Vehicle(string mk, string mod)
     {
         make = mk;
         model = mod;
