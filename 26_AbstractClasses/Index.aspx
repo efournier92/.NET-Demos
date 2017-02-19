@@ -8,9 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+        Sphere Radius: <asp:TextBox ID="SphereRadiusBox" runat="server" OnTextChanged="SphereRadiusBox_TextChanged"></asp:TextBox><br />
+        Cube Edge Length: <asp:TextBox ID="CubeEdgeBox" runat="server" OnTextChanged="CubeEdgeBox_TextChanged"></asp:TextBox><br />
+        <asp:Label ID="SphereLabel" runat="server"></asp:Label><br />
     </form>
 </body>
 </html>
