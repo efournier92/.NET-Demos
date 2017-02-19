@@ -13,7 +13,7 @@ public class Vehicle
 
     public virtual string ShowInfo()
     {
-        return "Make: " + make;
+        return "Make: " + make + "<br>";
     }
 }
 
