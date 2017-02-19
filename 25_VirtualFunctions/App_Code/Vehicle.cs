@@ -1,11 +1,10 @@
-﻿using System.CodeDom;
-
-/// <summary>
+﻿/// <summary>
 /// Summary description for Vehicle
 /// </summary>
 public class Vehicle
 {
     private string make;
+
     public Vehicle(string mk)
     {
         make = mk;
