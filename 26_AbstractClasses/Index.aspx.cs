@@ -22,6 +22,7 @@ public partial class Index : System.Web.UI.Page
     protected void CubeEdgeBox_TextChanged(object sender, EventArgs e)
     {
         var cube = new Cube(double.Parse(SphereRadiusBox.Text));
+        SphereLabel.Text = SphereLabel.Text;
         CubeLabel.Text += cube.GetVolume();
     }
 }
