@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="Index" %>
+﻿`<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="Index" %>
 
 <!DOCTYPE html>
 
@@ -8,9 +8,16 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+        Value 1:
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
+        Value 2:
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
+        Value 3:
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br /><br />
+
+        <asp:Button ID="Button" runat="server" Text="Button" /><br /><br />
+
+        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>
