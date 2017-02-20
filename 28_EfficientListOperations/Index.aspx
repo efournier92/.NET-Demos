@@ -1,4 +1,4 @@
-﻿`<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="Index" %>
 
 <!DOCTYPE html>
 
@@ -17,7 +17,7 @@
 
         <asp:Button ID="Button" runat="server" Text="Button" /><br /><br />
 
-        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
