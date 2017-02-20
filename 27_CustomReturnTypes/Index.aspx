@@ -13,9 +13,9 @@
         2nd Title:
         <asp:TextBox ID="TitleBox2" runat="server"></asp:TextBox><br /><br />
 
-        <asp:Button ID="SortButton" runat="server" Text="Sort" /><br /><br />
+        <asp:Button ID="SortButton" runat="server" Text="Sort" OnClick="SortButton_Click" /><br /><br />
 
-        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label" runat="server"></asp:Label>
 
     </form>
 </body>
