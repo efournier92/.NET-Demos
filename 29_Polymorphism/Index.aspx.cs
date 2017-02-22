@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 public partial class Index : System.Web.UI.Page
 {
-    //List<Product> lp = new List<Product>();
+
+    protected void FormatButton_Click(object sender, EventArgs e)
+    {
+        List<Product> lp = new List<Product>();
+        lp.Add(new Book(BookTitleBox.Text, decimal.Parse(BookPriceBox.Text)));
+        lp.Add(new Shoe(ShoeMakeBox.Text, decimal.Parse(ShoePriceBox.Text)));
+        lp.ForEach(x => Label.Text += "<br>" + x.GetDesc());
+    }
 }

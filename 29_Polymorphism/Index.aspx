@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Polymorphism</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,7 +16,7 @@
         <asp:TextBox ID="ShoeMakeBox" runat="server"></asp:TextBox><br />
         Shoe Price:       
         <asp:TextBox ID="ShoePriceBox" runat="server"></asp:TextBox><br /><br />
-        <asp:Button ID="FormatButton" runat="server" Text="SHow Formatted" /><br /><br />
+        <asp:Button ID="FormatButton" runat="server" Text="Show Formatted" OnClick="FormatButton_Click" /><br />
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
