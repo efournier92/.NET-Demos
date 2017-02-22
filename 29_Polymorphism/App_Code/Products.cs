@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-public class Products
+﻿public class Product
 {
     private decimal price;
-    public Products(decimal pri)
+    public Product(decimal pri)
     {
         price = pri;
     }
@@ -14,5 +9,35 @@ public class Products
     public virtual string GetDesc()
     {
         return "Price: " + price;
+    }
+}
+
+public class Book : Product
+{
+    private string title;
+
+    public Book(string t, decimal p) : base(p)
+    {
+        title = t;
+    }
+
+    public override string GetDesc()
+    {
+        return base.GetDesc() + "<br>Title: " + title;
+    }
+}
+
+public class Shoe : Product
+{
+    private string brand;
+
+    public Shoe(string br, decimal p) : base(p)
+    {
+        brand = br;
+    }
+
+    public override string GetDesc()
+    {
+        return base.GetDesc() + "<br>Title: " + brand;
     }
 }
