@@ -15,5 +15,7 @@ public partial class Index : System.Web.UI.Page
         Label.Text += "<br>Max: " + d.Min();
         Label.Text += "<br>Min: " + d.Min() + "<br>";
         d.ForEach(x => Label.Text += "<br>" + x + "^2: " + (x * x));
+        Label.Text += "<br>";
+        d.ForEach(x => Label.Text += "<br>" + x + "-" + d.Average() + "=" + (x - d.Average()));
     }
 }
