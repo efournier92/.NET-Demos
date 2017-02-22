@@ -15,7 +15,8 @@
         Value 3:
         <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br /><br />
 
-        <asp:Button ID="Button" runat="server" Text="Button" /><br /><br />
+        <asp:Button ID="Button" runat="server" Text="Button" OnClick="Button_Click" />
+        <br /><br />
 
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
