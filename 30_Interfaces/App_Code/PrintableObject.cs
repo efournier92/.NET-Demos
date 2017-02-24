@@ -14,22 +14,22 @@ public class Person : IPrintable
 
     public string Print()
     {
-        return "<br>Name" + name;
+        return "<br>Name: " + name;
     }
 }
 
 public class Document : IPrintable
 {
-    private string text;
+    private string quote;
 
     public Document(string t)
     {
-        text = t;
+        quote = '"' + t  + '"';
     }
 
     public string Print()
     {
-        return "<br>" + text;
+        return "<br>Quote: " + quote + "<br>";
     }
 
 }
