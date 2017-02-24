@@ -14,6 +14,22 @@ public class Person : IPrintable
 
     public string Print()
     {
-        throw new System.NotImplementedException();
+        return "<br>Name" + name;
     }
+}
+
+public class Document : IPrintable
+{
+    private string text;
+
+    public Document(string t)
+    {
+        text = t;
+    }
+
+    public string Print()
+    {
+        return "<br>" + text;
+    }
+
 }
