@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 public partial class Index : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
+    protected void PrintButton_Click(object sender, EventArgs e)
     {
-
+        IPrintable per = new Person(NameBox.Text);
+        IPrintable book = new Document(TextBox.Text);
+        var pr = new List<IPrintable>();
+        pr.Add(per);
+        pr.Add(book);
+        pr.ForEach(x => Label.Text += x.Print());
     }
 }
