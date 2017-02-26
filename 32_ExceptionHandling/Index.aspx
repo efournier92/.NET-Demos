@@ -8,9 +8,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+        Value 1: <asp:TextBox ID="ValueBox1" runat="server"></asp:TextBox><br />
+        Value 2: <asp:TextBox ID="ValueBox2" runat="server"></asp:TextBox><br /><br />
+        <asp:Button ID="DivideButton" runat="server" Text="Divide" OnClick="DivideButton_Click" /><br /><br />
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
