@@ -12,11 +12,8 @@ public partial class Index : System.Web.UI.Page
             {
                 throw new DivideByZeroException();
             }
-            else
-            {
-                var quotient = val1/val2;
-                Label.Text = val1 + "/" + val2 + " = " + quotient;
-            }
+            var quotient = val1/val2;
+            Label.Text = val1 + "/" + val2 + " = " + quotient;
         }
         catch (DivideByZeroException ex)
         {
@@ -28,7 +25,7 @@ public partial class Index : System.Web.UI.Page
         }
         finally
         {
-            Label.Text += "<br>OPERATION COMPLETE.";
+            Label.Text += "<br><br>OPERATION COMPLETE";
         }
     }
 }
