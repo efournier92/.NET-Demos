@@ -26,6 +26,9 @@ public partial class Index : System.Web.UI.Page
         {
             Label.Text = ex.Message;
         }
-
+        finally
+        {
+            Label.Text += "<br>OPERATION COMPLETE.";
+        }
     }
 }
