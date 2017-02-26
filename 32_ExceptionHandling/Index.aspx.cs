@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 public partial class Index : System.Web.UI.Page
 {
@@ -24,5 +18,14 @@ public partial class Index : System.Web.UI.Page
                 Label.Text = val1 + "/" + val2 + " = " + quotient;
             }
         }
+        catch (DivideByZeroException ex)
+        {
+            Label.Text = ex.Message;
+        }
+        catch (FormatException ex)
+        {
+            Label.Text = ex.Message;
+        }
+
     }
 }
