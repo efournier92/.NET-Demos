@@ -2,7 +2,7 @@
 {
     public string Title { get; set; }
     string bookType;
-    private int pubDate;
+    int pubDate;
      
     public Book(string title, int publicationDate, string type="Papery Book")
     {

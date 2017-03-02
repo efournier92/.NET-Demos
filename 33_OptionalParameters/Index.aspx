@@ -9,6 +9,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        Search For: <asp:TextBox ID="SearchBox" runat="server"></asp:TextBox><br /><br />
+        <asp:Button ID="SearchButton" runat="server" Text="Search" OnClick="SearchButton_Click" /><br /><br />
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
