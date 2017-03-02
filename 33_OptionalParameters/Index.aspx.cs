@@ -9,6 +9,9 @@ public partial class Index : System.Web.UI.Page
         var bookList = new List<Book>();
         bookList.Add(new Book(title: "1984", publicationDate: 1948));
         bookList.Add(new Book(title: "On The Road", publicationDate: 1957, type: "Scroll"));
-        bookList.Add(new Book(title: "Hunger Games", publicationDate: 2008, type: "Digital Book"));
+        bookList.Add(new Book(title: "Hunger Games", publicationDate: DateTime.Now.Year, type: "eBook"));
+
+        var searchResults = bookList.FindAll(book => book.Title.ToLower().Contains(SearchBox.Text.ToLower()));
+        searchResults.ForEach(book => Label.Text += book.ToString());
     }
 }
