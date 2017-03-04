@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Button ID="SearchButton" runat="server" Text="Get Inventory" OnClick="SearchButton_Click" /><br /><br />
+        <asp:Button ID="SearchButton" runat="server" Text="Get Car Inventory" OnClick="SearchButton_Click" /><br />
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
