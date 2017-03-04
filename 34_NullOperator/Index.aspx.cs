@@ -15,9 +15,35 @@ public partial class Index : System.Web.UI.Page
         carList.Add(null);
         foreach (var c in carList)
         {
+            if (c != null)
+            {
                 if (c.MakeModel != null)
-                    Label.Text += "<br>Make: " + c.MakeModel.Split(new char[] {','})[0];
-                Label.Text += "ERROR";
+                {
+                    Label.Text += "<br>Make: " + c.MakeModel.Split(new char[] { ',' })[0];
+                    if (c.MakeModel.Split(new char[] {','})[1] != null)
+                    {
+                        Label.Text += "<br>Model: " + c.MakeModel.Split(new char[] { ',' })[1];
+                    }
+                    else
+                    {
+                        Label.Text += "<br>Model: NULL";
+                    }
+                }
+                else
+                {
+                    Label.Text += "<br>Make: NULL";
+                    Label.Text += "<br>Model: NULL";
+                }
+                if (c.PreviousOwner != null)
+                {
+                    Label.Text += "<br>Previous Owner: " + c.PreviousOwner;
+                }
+                else
+                {
+                    Label.Text += "<br>Previous Owner: NULL";
+                }
+                Label.Text += "<br>";
+            }
         }
     }
 }
