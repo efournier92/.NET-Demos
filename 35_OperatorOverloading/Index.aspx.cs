@@ -7,7 +7,7 @@ public partial class Index : System.Web.UI.Page
         var vec1 = new Vector(1, 2);
         var vec2 = new Vector(3, 4);
         var vec3 = new Vector(5, 6);
-        var vecs = new Vector[] { vec1, vec2, vec3 };
+        var vecs = new[] { vec1, vec2, vec3 };
         Label.Text = "";
 
         foreach (var v1 in vecs)
