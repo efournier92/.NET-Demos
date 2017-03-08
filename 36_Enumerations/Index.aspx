@@ -13,7 +13,9 @@
             <asp:ListItem>Tuesday</asp:ListItem>
             <asp:ListItem>Wednesday</asp:ListItem>
         </asp:DropDownList>
-        <asp:Label ID="Label" runat="server"></asp:Label>
+        <div style="text-align: center; font-size: 20px;">
+            <asp:Label ID="Label" runat="server"></asp:Label>
+        </div>
     </form>
 </body>
 </html>
