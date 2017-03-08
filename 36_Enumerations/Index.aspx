@@ -8,11 +8,12 @@
 </head>
 <body>
     <form id="form" runat="server">
-        <asp:DropDownList ID="DropDownList" runat="server" AutoPostBack="True">
+        <asp:DropDownList ID="DropDownList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList_SelectedIndexChanged">
             <asp:ListItem>Monday</asp:ListItem>
             <asp:ListItem>Tuesday</asp:ListItem>
             <asp:ListItem>Wednesday</asp:ListItem>
         </asp:DropDownList>
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
