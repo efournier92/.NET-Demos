@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _37_NameSpaces
+﻿namespace MathLibrary
 {
-    public class Class1
+    public class BasicMath
     {
+        public double Add(double x, double y)
+        {
+            return x + y;
+        }
+    }
+
+    public class FinancialMath
+    {
+        public double GetInterest(double principle, double rate)
+        {
+            return principle*rate;
+        }
     }
 }
