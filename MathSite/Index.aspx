@@ -9,15 +9,15 @@
 <body>
     <form id="form1" runat="server">
         Value 1:
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
+        <asp:TextBox ID="Value1Box" runat="server"></asp:TextBox><br />
         Value 2:
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
-        <asp:Button ID="Button" runat="server" Text="Add" /><br />
+        <asp:TextBox ID="Value2Box" runat="server"></asp:TextBox><br />
+        <asp:Button ID="AddButton" runat="server" Text="Add" /><br />
         Principle:
-        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br />
+        <asp:TextBox ID="PrincipleBox" runat="server"></asp:TextBox><br />
         Rate:
-        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><br />
-        <asp:Button ID="Button1" runat="server" Text="Find Interest" /><br />
+        <asp:TextBox ID="RateBox" runat="server"></asp:TextBox><br />
+        <asp:Button ID="FindInterestButton" runat="server" Text="Find Interest" /><br />
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>

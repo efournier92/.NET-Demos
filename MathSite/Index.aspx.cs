@@ -11,4 +11,9 @@ public partial class Index : System.Web.UI.Page
     {
 
     }
+
+    protected void AddButton_Click(object sender, EventArgs e)
+    {
+
+    }
 }
