@@ -1,0 +1,63 @@
+2017/03/02-16:43:37.024 25ac Recovering log #3
+2017/03/02-16:43:37.029 25ac Level-0 table #5: started
+2017/03/02-16:43:37.038 25ac Level-0 table #5: 1713816 bytes OK
+2017/03/02-16:43:37.042 25ac Delete type=0 #3
+2017/03/02-16:43:37.043 25ac Delete type=3 #2
+2017/03/02-16:44:28.035 ac4 Level-0 table #8: started
+2017/03/02-16:44:28.066 ac4 Level-0 table #8: 4093858 bytes OK
+2017/03/02-16:44:28.071 ac4 Delete type=0 #6
+2017/03/02-16:44:28.503 ac4 Level-0 table #10: started
+2017/03/02-16:44:28.555 ac4 Level-0 table #10: 4264635 bytes OK
+2017/03/02-16:44:28.556 ac4 Delete type=0 #7
+2017/03/02-16:44:28.806 ac4 Level-0 table #12: started
+2017/03/02-16:44:28.841 ac4 Level-0 table #12: 4040260 bytes OK
+2017/03/02-16:44:28.842 ac4 Delete type=0 #9
+2017/03/02-16:44:28.843 ac4 Compacting 4@0 + 0@1 files
+2017/03/02-16:44:28.862 ac4 Generated table #13: 5317 keys, 2162554 bytes
+2017/03/02-16:44:28.879 ac4 Generated table #14: 4257 keys, 2167383 bytes
+2017/03/02-16:44:28.896 ac4 Generated table #15: 3654 keys, 2167259 bytes
+2017/03/02-16:44:28.914 ac4 Generated table #16: 2956 keys, 2177459 bytes
+2017/03/02-16:44:28.930 ac4 Generated table #17: 3140 keys, 2161606 bytes
+2017/03/02-16:44:28.949 ac4 Generated table #18: 1725 keys, 3239584 bytes
+2017/03/02-16:44:28.951 ac4 Generated table #19: 47 keys, 2384 bytes
+2017/03/02-16:44:28.951 ac4 Compacted 4@0 + 0@1 files => 14078229 bytes
+2017/03/02-16:44:28.952 ac4 Delete type=2 #5
+2017/03/02-16:44:28.953 ac4 Delete type=2 #8
+2017/03/02-16:44:28.953 ac4 Delete type=2 #10
+2017/03/02-16:44:28.954 ac4 Delete type=2 #12
+2017/03/02-16:44:28.954 ac4 compacted to: files[ 0 7 0 0 0 0 0 ]
+2017/03/02-16:44:28.955 ac4 Moved #13 to level-2 2162554 bytes OK: files[ 0 6 1 0 0 0 0 ]
+2017/03/02-16:44:28.956 ac4 Moved #14 to level-2 2167383 bytes OK: files[ 0 5 2 0 0 0 0 ]
+2017/03/02-16:44:29.246 ac4 Level-0 table #21: started
+2017/03/02-16:44:29.271 ac4 Level-0 table #21: 3943881 bytes OK
+2017/03/02-16:44:29.272 ac4 Delete type=0 #11
+2017/03/02-16:44:29.548 ac4 Level-0 table #23: started
+2017/03/02-16:44:29.574 ac4 Level-0 table #23: 3806258 bytes OK
+2017/03/02-16:44:29.575 ac4 Delete type=0 #20
+2017/03/02-16:44:31.084 ac4 Compacting 2@0 + 4@1 files
+2017/03/02-16:44:31.103 ac4 Generated table #24: 4783 keys, 2166845 bytes
+2017/03/02-16:44:31.119 ac4 Generated table #25: 3742 keys, 2163443 bytes
+2017/03/02-16:44:31.137 ac4 Generated table #26: 2911 keys, 2177059 bytes
+2017/03/02-16:44:31.153 ac4 Generated table #27: 3170 keys, 2158477 bytes
+2017/03/02-16:44:31.168 ac4 Generated table #28: 2370 keys, 2183391 bytes
+2017/03/02-16:44:31.187 ac4 Generated table #29: 2937 keys, 2180868 bytes
+2017/03/02-16:44:31.202 ac4 Generated table #30: 3011 keys, 2162782 bytes
+2017/03/02-16:44:31.229 ac4 Generated table #31: 551 keys, 2293348 bytes
+2017/03/02-16:44:31.229 ac4 Compacted 2@0 + 4@1 files => 17486213 bytes
+2017/03/02-16:44:31.233 ac4 Delete type=2 #15
+2017/03/02-16:44:31.234 ac4 Delete type=2 #16
+2017/03/02-16:44:31.234 ac4 Delete type=2 #17
+2017/03/02-16:44:31.235 ac4 Delete type=2 #18
+2017/03/02-16:44:31.235 ac4 Delete type=2 #21
+2017/03/02-16:44:31.236 ac4 Delete type=2 #23
+2017/03/02-16:44:31.236 ac4 compacted to: files[ 0 9 2 0 0 0 0 ]
+2017/03/02-16:44:31.236 ac4 Compacting 1@1 + 1@2 files
+2017/03/02-16:44:31.255 ac4 Generated table #32: 4380 keys, 2162811 bytes
+2017/03/02-16:44:31.271 ac4 Generated table #33: 3619 keys, 2168628 bytes
+2017/03/02-16:44:31.271 ac4 Compacted 1@1 + 1@2 files => 4331439 bytes
+2017/03/02-16:44:31.272 ac4 Delete type=2 #14
+2017/03/02-16:44:31.273 ac4 Delete type=2 #25
+2017/03/02-16:44:31.273 ac4 compacted to: files[ 0 8 3 0 0 0 0 ]
+2017/03/02-16:44:31.274 ac4 Moved #26 to level-2 2177059 bytes OK: files[ 0 7 4 0 0 0 0 ]
+2017/03/02-16:44:31.275 ac4 Moved #27 to level-2 2158477 bytes OK: files[ 0 6 5 0 0 0 0 ]
+2017/03/02-16:44:31.277 ac4 Moved #28 to level-2 2183391 bytes OK: files[ 0 5 6 0 0 0 0 ]
