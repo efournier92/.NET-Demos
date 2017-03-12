@@ -7,8 +7,9 @@
     <title>Structs</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        
+    <form id="form" runat="server">
+        <asp:Button ID="MakePoints" runat="server" Text="Make & Show Points" /><br />
+        <asp:Label ID="PointsLabel" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>
