@@ -12,13 +12,13 @@
         <asp:TextBox ID="Value1Box" runat="server"></asp:TextBox><br />
         Value 2:
         <asp:TextBox ID="Value2Box" runat="server"></asp:TextBox><br />
-        <asp:Button ID="AddButton" runat="server" Text="Add" /><br />
+        <asp:Button ID="AddButton" runat="server" Text="Add" OnClick="AddButton_Click" /><br />
         <asp:Label ID="SumLabel" runat="server" Text="Label"></asp:Label><br />
         Principle:
         <asp:TextBox ID="PricipleBox" runat="server"></asp:TextBox><br />
         Rate:
         <asp:TextBox ID="RateBox" runat="server"></asp:TextBox><br />
-        <asp:Button ID="FindInterestButton" runat="server" Text="Button" /><br />
+        <asp:Button ID="FindInterestButton" runat="server" Text="Button" OnClick="FindInterestButton_Click" /><br />
         <asp:Label ID="InterestLabel" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
