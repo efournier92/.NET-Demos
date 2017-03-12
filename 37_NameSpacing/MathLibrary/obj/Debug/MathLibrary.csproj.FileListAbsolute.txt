@@ -1,0 +1,4 @@
+C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\MathLibrary\bin\Debug\MathLibrary.dll
+C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\MathLibrary\bin\Debug\MathLibrary.pdb
+C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\MathLibrary\obj\Debug\MathLibrary.dll
+C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\MathLibrary\obj\Debug\MathLibrary.pdb
