@@ -8,11 +8,18 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        Value 1: <asp:TextBox ID="Value1Box" runat="server"></asp:TextBox><br />
-        Value 2: <asp:TextBox ID="Value2Box" runat="server"></asp:TextBox><br />
-        <asp:Button ID="FindInterestButton" runat="server" Text="Find Interest" /><br />
-        Principle: <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
-
+        Value 1:
+        <asp:TextBox ID="Value1Box" runat="server"></asp:TextBox><br />
+        Value 2:
+        <asp:TextBox ID="Value2Box" runat="server"></asp:TextBox><br />
+        <asp:Button ID="AddButton" runat="server" Text="Add" /><br />
+        <asp:Label ID="SumLabel" runat="server" Text="Label"></asp:Label><br />
+        Principle:
+        <asp:TextBox ID="PricipleBox" runat="server"></asp:TextBox><br />
+        Rate:
+        <asp:TextBox ID="RateBox" runat="server"></asp:TextBox><br />
+        <asp:Button ID="FindInterestButton" runat="server" Text="Button" /><br />
+        <asp:Label ID="InterestLabel" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>
