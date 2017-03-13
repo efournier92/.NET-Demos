@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Reflection.Emit;
+using System.Threading;
 using StructLibrary;
 
 public partial class Index : System.Web.UI.Page
@@ -11,11 +11,16 @@ public partial class Index : System.Web.UI.Page
         var points= new Point[10];
         for (var i = 0; i < points.Length; i++)
         {
-            points[i] = new Point(new Random().Next(-10, 10), new Random().Next(-10, 10));
+            var x = new Random().Next(-10, 10);
+            Thread.Sleep(20);
+            var y = new Random().Next(-10, 10);
+            Thread.Sleep(20);
+            points[i] = new Point(x, y);
+            
         }
         foreach (var p in points)
         {
-            PointsLabel.Text += "(" + p.X + "," + p.Y + ")";
+            PointsLabel.Text += "(" + p.X + ", " + p.Y + ")<br>";
         }
     }
 }
