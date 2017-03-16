@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Activities.Expressions;
 using System.Threading;
 
 public delegate void LabelUpdater();
@@ -15,18 +14,18 @@ public partial class Index : System.Web.UI.Page
 
     public void UpdateFirstLabel()
     {
-        FirstLabel.Text = "" + DateTime.Now + "<br>";
-        Thread.Sleep(5000);
+        FirstLabel.Text = "Started Updating At: " + DateTime.Now + "<br>";
+        Thread.Sleep(2000);
     }
 
     public void UpdateSecondLabel()
     {
-        SecondLabel.Text = "" + DateTime.Now + "<br>";
-        Thread.Sleep(5000);
+        SecondLabel.Text = "Continued Updating At:" + DateTime.Now + "<br>";
+        Thread.Sleep(2000);
     }
 
     public void UpdateMainLabel()
     {
-        SecondLabel.Text = "Done Updating At: " + DateTime.Now;
+        MainLabel.Text = "Done Updating At: " + DateTime.Now;
     }
 }

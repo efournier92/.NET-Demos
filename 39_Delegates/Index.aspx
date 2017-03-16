@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form" runat="server">
-        <asp:Button ID="UpdateLabelsButton" runat="server" Text="Update Labels" OnClick="UpdateLabelsButton_Click" />
+        <asp:Button ID="UpdateLabelsButton" runat="server" Text="Update Labels" OnClick="UpdateLabelsButton_Click" /><br /><br />
         <asp:Label ID="FirstLabel" runat="server"></asp:Label><br />
         <asp:Label ID="SecondLabel" runat="server"></asp:Label><br />
         <asp:Label ID="MainLabel" runat="server"></asp:Label>
