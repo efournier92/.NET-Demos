@@ -1,14 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Activities.Expressions;
+using System.Threading;
 
+public delegate void LabelUdater();
 public partial class Index : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
+    protected void UpdateLabelsButton_Click(object sender, EventArgs e)
     {
 
+    }
+
+    public void UpdateFirstLabel()
+    {
+        FirstLabel.Text = "" + DateTime.Now;
+        Thread.Sleep(5000);
+    }
+
+    public void UpdateSecondLabel()
+    {
+        SecondLabel.Text = "" + DateTime.Now;
+        Thread.Sleep(5000);
+    }
+
+    public void UpdateMainLabel()
+    {
+        SecondLabel.Text = "Done Updating At: " + DateTime.Now;
     }
 }
