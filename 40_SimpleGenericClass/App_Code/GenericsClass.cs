@@ -1,17 +1,15 @@
-﻿public class GenericsClass<T>
+﻿using System.Linq;
+
+public class GenericsClass<T>
 {
-    private T[] vals;
+    private readonly T[] _vals;
     public GenericsClass(T[] input)
     {
-        vals = input;
+        _vals = input;
     }
 
     public string DisplayValues()
     {
-        string str = null;
-        foreach (var T in vals)
-        {
-            str += "<br>Value = " + 
-        }
+        return _vals.Aggregate<T, string>(null, (current, t) => current + ("<br>Value = " + t));
     }
 }
