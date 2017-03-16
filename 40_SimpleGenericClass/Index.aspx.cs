@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 public partial class Index : System.Web.UI.Page
 {
     protected void DisplayValuesButton_Click(object sender, EventArgs e)
