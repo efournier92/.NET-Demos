@@ -7,7 +7,7 @@
     <title>Simple Generic Class</title>
 </head>
 <body>
-    <form id="form" runat="server">
+    <form runat="server">
         <asp:Button runat="server" Text="Display Values" OnClick="DisplayValuesButton_Click" /><br />
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
