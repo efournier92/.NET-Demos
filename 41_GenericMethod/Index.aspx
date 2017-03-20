@@ -8,7 +8,7 @@
 </head>
 <body>
     <form runat="server">
-        <asp:Button ID="ECButton" runat="server" Text="Exchange & Compare"/><br />
+        <asp:Button runat="server" Text="Exchange & Compare" OnClick="ECButton_Click"/><br /><br />
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
