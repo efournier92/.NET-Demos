@@ -11,14 +11,11 @@ public class Quad : IComparable<Quad>
 
     public int CompareTo(Quad other)
     {
-        if (this.name.CompareTo(other.name) < 0)
+        if (string.Compare(this.name, other.name, StringComparison.Ordinal) < 0)
         {
             return -1;
         }
-        else
-        {
-            return 1;
-        }
+        return 1;
     }
 
     public virtual string Perimeter()
@@ -52,16 +49,5 @@ public class Rectangle : Quad
     public override string Perimeter()
     {
         return base.Perimeter() + (2 * sideOne + 2 * sideTwo);
-    }
-}
-
-/// <summary>
-/// Summary description for GenericInterface
-/// </summary>
-public class GenericInterface
-{
-    public GenericInterface()
-    {
-
     }
 }
