@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Web;
 
 public class Quad : IComparable<Quad>
 {
@@ -27,7 +23,7 @@ public class Quad : IComparable<Quad>
 
     public virtual string Perimeter()
     {
-        return "The perimeter of " + name + " is " +
+        return "The perimeter of " + name + " is ";
     }
 }
 

@@ -7,9 +7,9 @@
     <title>Generic Interface</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <asp:Button ID="Button1" runat="server" Text="Sort & Show" />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    <form runat="server">
+        <asp:Button runat="server" Text="Sort & Show" OnClick="SortandShowButton_Click"/><br />
+        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>
