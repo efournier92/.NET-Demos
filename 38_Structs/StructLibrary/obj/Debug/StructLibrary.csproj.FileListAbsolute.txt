@@ -1,5 +1,0 @@
-C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\StructLibrary\bin\Debug\StructLibrary.dll
-C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\StructLibrary\bin\Debug\StructLibrary.pdb
-C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\StructLibrary\obj\Debug\StructLibrary.csprojResolveAssemblyReference.cache
-C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\StructLibrary\obj\Debug\StructLibrary.dll
-C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\StructLibrary\obj\Debug\StructLibrary.pdb
