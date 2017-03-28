@@ -10,7 +10,7 @@ public partial class Index : System.Web.UI.Page
         Summarize<double> s = FindSum;
         s += FindRatio;
         s += FindProduct;
-        s(4, 5);
+        s(4, 8);
     }
 
     public void FindSum(double x, double y)
