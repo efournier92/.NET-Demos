@@ -7,7 +7,9 @@
     <title>Generic Delegates</title>
 </head>
 <body>
-    <asp:Button ID="SummarizeButton" runat="server" Text="Button" OnClick="Button_Click" /><br />
-    <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
+    <form runat="server">
+        <asp:Button ID="SummarizeButton" runat="server" Text="Button" OnClick="SummarizeButton_Click" /><br />
+        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
+    </form>
 </body>
 </html>

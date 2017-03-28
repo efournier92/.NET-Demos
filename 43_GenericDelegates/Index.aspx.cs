@@ -4,7 +4,8 @@ public delegate void Summarize<T>(T x, T y);
 public partial class Index : System.Web.UI.Page
 {
 
-    protected void Button_Click(object sender, EventArgs e)
+    protected void SummarizeButton_Click(object sender, EventArgs e)
+
     {
         Summarize<double> s = FindSum;
         s += FindRatio;
@@ -25,4 +26,5 @@ public partial class Index : System.Web.UI.Page
     {
         Label.Text = "<br>" + x + " * " + y + " = " + (x * y);
     }
+
 }
