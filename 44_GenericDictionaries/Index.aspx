@@ -7,9 +7,9 @@
     <title>Generic Dictionaries</title>
 </head>
 <body>
-    <form id="form" runat="server">
-        <asp:Button ID="ShowButton" runat="server" Text="Show" OnClick="ShowButton_Click"/><br />
-        <asp:Label ID="Label" runat="server" Text="Label"></asp:Label>
+    <form runat="server">
+        <asp:Button runat="server" Text="Show" OnClick="ShowButton_Click"/><br />
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
