@@ -15,16 +15,16 @@ public partial class Index : System.Web.UI.Page
 
     public void FindSum(double x, double y)
     {
-        Label.Text = "<br>" + x + " + " + y + " = " + (x + y);
+        Label.Text += "<br>" + x + " + " + y + " = " + (x + y);
     }
 
     public void FindRatio(double x, double y)
     {
-        Label.Text = "<br>" + x + " / " + y + " = " + (x / y);
+        Label.Text += "<br>" + x + " / " + y + " = " + (x / y);
     }
     public void FindProduct(double x, double y)
     {
-        Label.Text = "<br>" + x + " * " + y + " = " + (x * y);
+        Label.Text += "<br>" + x + " * " + y + " = " + (x * y);
     }
 
 }
