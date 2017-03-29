@@ -5,8 +5,8 @@ public partial class Index : System.Web.UI.Page
 {
 
     protected void SummarizeButton_Click(object sender, EventArgs e)
-
     {
+        Label.Text = "";
         Summarize<double> s = FindSum;
         s += FindRatio;
         s += FindProduct;
@@ -20,11 +20,11 @@ public partial class Index : System.Web.UI.Page
 
     public void FindRatio(double x, double y)
     {
-        Label.Text += "<br>" + x + " / " + y + " = " + (x / y);
+        Label.Text += "<br><br>" + x + " / " + y + " = " + (x / y);
     }
     public void FindProduct(double x, double y)
     {
-        Label.Text += "<br>" + x + " * " + y + " = " + (x * y);
+        Label.Text += "<br><br>" + x + " * " + y + " = " + (x * y);
     }
 
 }
