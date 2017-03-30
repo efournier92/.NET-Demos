@@ -13,6 +13,8 @@ public partial class Index : System.Web.UI.Page
     {
         double x = 10, y = 25;
         Compare comp = (a, b) => (a == b);
-
+        Label.Text = x + " and " + y + " are equal is: " + comp(x, y).ToString().ToUpper();
+        Multiply mult = (a, b) => (a * b);
+        Label.Text += x + " * " + y + " = " + mult(x, y);
     }
 }
