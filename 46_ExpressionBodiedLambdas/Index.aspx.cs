@@ -1,13 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Xml;
 
+delegate double CompareValues(double x, double y);
 public partial class Index : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
+    double FromStringToDouble(string s)
+    {
+        return Convert.ToDouble(s);
+    }
+
+    protected void FindMaxButton_Click(object sender, EventArgs e)
+    {
+        var vals = TextBox.Text.Split(new char[] { ',' });
+        var doubleVals = Array.ConvertAll(vals, new Converter<string, double>(FromStringToDouble));
+        CompareValues compareValues = (xin, yin) =>
+        {
+            double x = xin, y = yin;
+            return x > y ? x : y;
+        };
+        Label.Text = CompareValuesInList(compareValues, doubleVals[0], doubleVals[1], doubleVals[2]);
+    }
+
+    static double CompareValuesInList(CompareValues compFirstTwo, double first, double second, double third)
     {
 
     }

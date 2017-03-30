@@ -7,8 +7,10 @@
     <title>Expression Bodied Lambdas</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        
+    <form runat="server">
+        Enter Values: <asp:TextBox ID="TextBox" runat="server"></asp:TextBox><br />
+        <asp:Button ID="FindMaxButton" runat="server" Text="Find Max" OnClick="FindMaxButton_Click"/><br/>
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
