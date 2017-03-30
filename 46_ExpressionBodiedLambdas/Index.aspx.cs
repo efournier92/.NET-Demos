@@ -18,11 +18,11 @@ public partial class Index : System.Web.UI.Page
             double x = xin, y = yin;
             return x > y ? x : y;
         };
-        Label.Text = CompareValuesInList(compareValues, doubleVals[0], doubleVals[1], doubleVals[2]);
+        Label.Text = CompareValuesInList(compareValues, doubleVals[0], doubleVals[1], doubleVals[2]).ToString();
     }
 
     static double CompareValuesInList(CompareValues compFirstTwo, double first, double second, double third)
     {
-
+        return third > compFirstTwo(first, second) ? third : compFirstTwo(first, second);
     }
 }
