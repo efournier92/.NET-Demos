@@ -18,5 +18,22 @@ public partial class Index : System.Web.UI.Page
         {
             Label.Text += $"<br>{salary:C}";
         }
+        Label.Text += "<br><hr>";
+
+        var nameSalaries = new Dictionary<string, decimal>();
+        nameSalaries.Add("Steve Jobs", 4900000);
+        nameSalaries.Add("Steve Wozniak", 5000000);
+        nameSalaries.Add("Steve Bannon", 45000);
+        nameSalaries.Add("Ringo Starr", 99000);
+
+        IEnumerable<string> dictResults = from nameSalary in nameSalaries
+                                          where nameSalary.Key.Contains("Steve") && nameSalary.Value >= 1000000
+                                          select $"<br>{nameSalary.Key} earns {nameSalary.Value:C} per year.";
+
+        foreach (var nameSal in dictResults)
+        {
+            Label.Text += nameSal;
+        }
+        Label.Text += "<br><br><hr>";
     }
 }
