@@ -10,8 +10,13 @@ public partial class Index : System.Web.UI.Page
         var salaries = new decimal[] { 48533, 92542, 78541, 34522, 88754 };
 
         IEnumerable<string> salResults = from salary in salaries
-                                         where 40000 <= salary && salary <= 70000
+                                         where 20000 <= salary && salary <= 80000
                                          orderby salary descending
                                          select $"<br>{salary:C}";
+
+        foreach (var salary in salResults)
+        {
+            Label.Text += $"<br>{salary:C}";
+        }
     }
 }
