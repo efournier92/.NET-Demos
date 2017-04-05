@@ -7,8 +7,9 @@
     <title>Aggregation Queries</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <asp:Button ID="Button1" runat="server" Text="Show"/><br />
+    <form runat="server">
+        <asp:Button ID="ShowButton" runat="server" Text="Show" OnClick="ShowButton_Click"/><br />
+        <asp:Label runat="server"></asp:Label>
     </form>
 </body>
 </html>
