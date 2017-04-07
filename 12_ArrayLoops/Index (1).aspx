@@ -4,11 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Aggregation Queries</title>
+    <title></title>
 </head>
 <body>
-    <form runat="server">
-        <asp:Button runat="server" Text="Show" OnClick="ShowButton_Click"/><br />
+    <form id="form1" runat="server">
+        <asp:Button ID="Button" runat="server" Text="Show" OnClick="Button_Click"/><br/>
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>

@@ -16,9 +16,7 @@ public partial class Index : System.Web.UI.Page
         var student1 = new List<int> { 90, 89, 92 };
         var student2 = new List<int> { 72, 64, 85 };
 
-        var classList = new List<List<int>>();
-        classList.Add(student1);
-        classList.Add(student2);
+        var classList = new List<List<int>> {student1, student2};
 
         var avgPerStudent = classList.Select(student => student.Average());
 
