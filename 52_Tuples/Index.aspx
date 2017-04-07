@@ -4,13 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Tuples</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
+    <form runat="server">
+        <asp:Button ID="ShowTupleButton" runat="server" Text="Show Tuple Summary Values" OnClick="ShowTupleButton_Click"/><br />
+        <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
 </html>
