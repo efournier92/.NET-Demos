@@ -4,7 +4,7 @@ using System.Linq;
 
 public partial class Index : System.Web.UI.Page
 {
-    private static Tuple<double, double, double, double> SummarizeList(List<double> listDoubles)
+    private static Tuple<double, double, double, double> SummarizeList(IReadOnlyCollection<double> listDoubles)
     {
         var summary = Tuple.Create(
             listDoubles.Sum(),

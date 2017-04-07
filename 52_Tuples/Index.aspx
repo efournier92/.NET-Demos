@@ -8,7 +8,7 @@
 </head>
 <body>
     <form runat="server">
-        <asp:Button ID="ShowTupleButton" runat="server" Text="Show Tuple Summary Values" OnClick="ShowTupleButton_Click"/><br />
+        <asp:Button runat="server" Text="Show Tuple Summary Values" OnClick="ShowTupleButton_Click"/><br />
         <asp:Label ID="Label" runat="server"></asp:Label>
     </form>
 </body>
