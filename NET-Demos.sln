@@ -153,6 +153,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "07_TernaryOperator", "07_Te
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "61912"
+		SlnRelativePath = "07_TernaryOperator\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -174,6 +175,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "08_InPlaceEvaluation", "08_
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51527"
+		SlnRelativePath = "08_InPlaceEvaluation\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -195,6 +197,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "09_LogicalAndOperator", "09
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "63956"
+		SlnRelativePath = "09_LogicalAndOperator\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -216,6 +219,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "10_LogicalOrOperator", "10_
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64082"
+		SlnRelativePath = "10_LogicalOrOperator\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -237,6 +241,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "11_ArrayBasics", "11_ArrayB
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64214"
+		SlnRelativePath = "11_ArrayBasics\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -258,6 +263,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "12_ArrayLoops", "12_ArrayLo
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "52854"
+		SlnRelativePath = "12_ArrayLoops\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -279,6 +285,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "13_SimpleMethods", "13_Simp
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51599"
+		SlnRelativePath = "13_SimpleMethods\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -300,6 +307,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "14_PassingArraysToMethods",
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55029"
+		SlnRelativePath = "14_PassingArraysToMethods\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -321,6 +329,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "15_ReferenceAndValueTypes",
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55276"
+		SlnRelativePath = "15_ReferenceAndValueTypes\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -342,6 +351,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "16_ParamsKeyword", "16_Para
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55720"
+		SlnRelativePath = "16_ParamsKeyword\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -363,6 +373,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "17_OutKeyword", "17_OutKeyw
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "50318"
+		SlnRelativePath = "17_OutKeyword\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -384,6 +395,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "18_MultidimensionalArrays",
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "61178"
+		SlnRelativePath = "18_MultidimensionalArrays\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "19_VarAndDynamic", "19_VarAndDynamic\", "{5A109842-8DE4-42F6-9B85-B13CEFC42FB6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62618"
+		Debug.AspNetCompiler.PhysicalPath = "19_VarAndDynamic\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62618\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62618"
+		Release.AspNetCompiler.PhysicalPath = "19_VarAndDynamic\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62618\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62618"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -428,6 +461,8 @@ Global
 		{A5F96E01-206C-4FFF-A7B7-468AC011BCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{613ECD07-37B7-4B2C-B50A-500594306508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{613ECD07-37B7-4B2C-B50A-500594306508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A109842-8DE4-42F6-9B85-B13CEFC42FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A109842-8DE4-42F6-9B85-B13CEFC42FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
