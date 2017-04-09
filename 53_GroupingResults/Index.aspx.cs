@@ -14,7 +14,7 @@ public partial class Index : System.Web.UI.Page
     {
         Label.Text = "";
 
-    var students = new List<Student>
+        var students = new List<Student>
         {
             new Student {Name = "Lennon, John", Grades = new List<int> {87, 91, 76, 88}},
             new Student {Name = "Starr, Ringo", Grades = new List<int> {66, 71, 85, 74}},
@@ -24,11 +24,12 @@ public partial class Index : System.Web.UI.Page
                                    group student by student.Name[0];
         foreach (var studentGroup in groupsByFirstLetters)
         {
-            Label.Text += $"<br>{studentGroup.Key}";
+            Label.Text += $"<br><b>{studentGroup.Key}</b>";
             foreach (var st in studentGroup)
             {
                 Label.Text += $"<br>{st.Name}";
             }
+            Label.Text += "<hr>";
         }
     }
 }
