@@ -4,12 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Try Parse</title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form runat="server">
         <asp:TextBox ID="tryParseTextBox" runat="server"></asp:TextBox>
-        <asp:Button ID="tryParseButton" runat="server" Text="Calculate 110%" OnClick="tryParseButton_Click1" /><br>
+        <asp:Button runat="server" Text="Calculate 110%" OnClick="tryParseButton_Click" />
+        <br />
         <asp:Label ID="tryParseLabel" runat="server" Text=""></asp:Label>
     </form>
 </body>

@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Globalization;
 
 public partial class Index : System.Web.UI.Page
 {
-    private static double Sum(double[] values)
+    private static double Sum(IEnumerable<double> values)
     {
         // begin sum with 0
         double sum = 0;
@@ -28,6 +25,6 @@ public partial class Index : System.Web.UI.Page
         var sum = Sum(vals);
 
         // print result of sum method
-        Label.Text = "The sum of those values is " + Convert.ToString(sum);
+        Label.Text = "The sum of those values is " + Convert.ToString(sum, CultureInfo.CurrentCulture);
     }
 }

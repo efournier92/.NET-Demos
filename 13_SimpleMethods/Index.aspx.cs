@@ -1,18 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Globalization;
 
 public partial class Index : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
-
-    }
-
     // private means this method is only reachable within this class
     // static meas we can call this method directly by its name
     // double is the data Type of the value returned by the method
@@ -29,6 +19,6 @@ public partial class Index : System.Web.UI.Page
     {
         var value = Convert.ToDouble(TextBox.Text);
         var increasedValue = GetIncreasedValue(value);
-        Label.Text = Convert.ToString(increasedValue);
+        Label.Text = Convert.ToString(increasedValue, CultureInfo.CurrentCulture);
     }
 }
