@@ -345,6 +345,48 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "16_ParamsKeyword", "16_Para
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "17_OutKeyword", "17_OutKeyword\", "{A5F96E01-206C-4FFF-A7B7-468AC011BCB0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50318"
+		Debug.AspNetCompiler.PhysicalPath = "17_OutKeyword\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50318\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50318"
+		Release.AspNetCompiler.PhysicalPath = "17_OutKeyword\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50318\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50318"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "18_MultidimensionalArrays", "18_MultidimensionalArrays\", "{613ECD07-37B7-4B2C-B50A-500594306508}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61178"
+		Debug.AspNetCompiler.PhysicalPath = "18_MultidimensionalArrays\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61178\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61178"
+		Release.AspNetCompiler.PhysicalPath = "18_MultidimensionalArrays\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61178\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61178"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -382,6 +424,10 @@ Global
 		{C1B579DC-239F-4CD3-B738-91EE0558FE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE732BA5-8533-412C-A3D6-288E280642D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE732BA5-8533-412C-A3D6-288E280642D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F96E01-206C-4FFF-A7B7-468AC011BCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F96E01-206C-4FFF-A7B7-468AC011BCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613ECD07-37B7-4B2C-B50A-500594306508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613ECD07-37B7-4B2C-B50A-500594306508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
