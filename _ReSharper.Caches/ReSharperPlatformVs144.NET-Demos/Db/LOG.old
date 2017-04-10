@@ -1,20 +1,20 @@
-2017/03/27-10:12:30.254 240c Recovering log #145
-2017/03/27-10:12:30.254 240c Level-0 table #151: started
-2017/03/27-10:12:30.394 240c Level-0 table #151: 119971 bytes OK
-2017/03/27-10:12:30.394 240c Delete type=0 #145
-2017/03/27-10:12:30.404 240c Delete type=3 #143
-2017/03/27-10:12:39.097 2f74 Compacting 1@0 + 1@1 files
-2017/03/27-10:12:39.137 2f74 Generated table #153: 375 keys, 81488 bytes
-2017/03/27-10:12:39.145 2f74 Generated table #154: 619 keys, 76391 bytes
-2017/03/27-10:12:39.145 2f74 Compacted 1@0 + 1@1 files => 157879 bytes
-2017/03/27-10:12:39.149 2f74 Delete type=2 #146
-2017/03/27-10:12:39.150 2f74 Delete type=2 #151
-2017/03/27-10:12:39.150 2f74 compacted to: files[ 0 2 26 0 0 0 0 ]
-2017/03/27-10:12:49.287 2f74 Compacting 1@1 + 2@2 files
-2017/03/27-10:12:49.407 2f74 Generated table #155: 1054 keys, 2602422 bytes
-2017/03/27-10:12:49.417 2f74 Generated table #156: 1851 keys, 642358 bytes
-2017/03/27-10:12:49.417 2f74 Compacted 1@1 + 2@2 files => 3244780 bytes
-2017/03/27-10:12:49.427 2f74 Delete type=2 #148
-2017/03/27-10:12:49.427 2f74 Delete type=2 #149
-2017/03/27-10:12:49.427 2f74 Delete type=2 #154
-2017/03/27-10:12:49.427 2f74 compacted to: files[ 0 1 26 0 0 0 0 ]
+2017/03/27-10:45:43.139 4b0c Recovering log #152
+2017/03/27-10:45:43.149 4b0c Level-0 table #158: started
+2017/03/27-10:45:43.169 4b0c Level-0 table #158: 1835743 bytes OK
+2017/03/27-10:45:43.179 4b0c Delete type=0 #152
+2017/03/27-10:45:43.179 4b0c Delete type=3 #150
+2017/03/27-10:45:51.887 5748 Compacting 1@0 + 1@1 files
+2017/03/27-10:45:51.892 5748 Generated table #160: 413 keys, 93083 bytes
+2017/03/27-10:45:51.901 5748 Generated table #161: 1361 keys, 214047 bytes
+2017/03/27-10:45:51.901 5748 Compacted 1@0 + 1@1 files => 307130 bytes
+2017/03/27-10:45:51.904 5748 Delete type=2 #153
+2017/03/27-10:45:51.905 5748 Delete type=2 #158
+2017/03/27-10:45:51.905 5748 compacted to: files[ 0 2 26 0 0 0 0 ]
+2017/03/27-10:45:58.930 5748 Compacting 1@1 + 2@2 files
+2017/03/27-10:45:58.963 5748 Generated table #162: 1144 keys, 2658602 bytes
+2017/03/27-10:45:58.972 5748 Generated table #163: 2142 keys, 682075 bytes
+2017/03/27-10:45:58.972 5748 Compacted 1@1 + 2@2 files => 3340677 bytes
+2017/03/27-10:45:58.975 5748 Delete type=2 #155
+2017/03/27-10:45:58.976 5748 Delete type=2 #156
+2017/03/27-10:45:58.976 5748 Delete type=2 #161
+2017/03/27-10:45:58.977 5748 compacted to: files[ 0 1 26 0 0 0 0 ]
