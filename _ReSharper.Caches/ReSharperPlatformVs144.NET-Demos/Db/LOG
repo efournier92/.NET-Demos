@@ -25,3 +25,9 @@
 2017/03/28-16:07:16.730 4cb0 Delete type=2 #171
 2017/03/28-16:07:16.731 4cb0 Delete type=2 #194
 2017/03/28-16:07:16.732 4cb0 compacted to: files[ 0 0 28 0 0 0 0 ]
+2017/03/28-16:22:18.281 4cb0 Level-0 table #201: started
+2017/03/28-16:22:18.303 4cb0 Level-0 table #201: 3093212 bytes OK
+2017/03/28-16:22:18.304 4cb0 Delete type=0 #193
+2017/03/28-16:22:18.671 4cb0 Level-0 table #203: started
+2017/03/28-16:22:18.690 4cb0 Level-0 table #203: 4313489 bytes OK
+2017/03/28-16:22:18.691 4cb0 Delete type=0 #200
