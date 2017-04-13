@@ -42,3 +42,21 @@
 2017/03/28-14:52:35.152 4a10 Delete type=2 #170
 2017/03/28-14:52:35.153 4a10 Delete type=2 #176
 2017/03/28-14:52:35.153 4a10 compacted to: files[ 0 1 27 0 0 0 0 ]
+2017/03/28-15:15:10.466 4a10 Level-0 table #180: started
+2017/03/28-15:15:10.488 4a10 Level-0 table #180: 3798590 bytes OK
+2017/03/28-15:15:10.490 4a10 Delete type=0 #173
+2017/03/28-15:15:36.307 4a10 Compacting 1@0 + 1@1 files
+2017/03/28-15:15:36.310 4a10 Generated table #181: 134 keys, 31501 bytes
+2017/03/28-15:15:36.319 4a10 Generated table #182: 1076 keys, 275488 bytes
+2017/03/28-15:15:36.319 4a10 Compacted 1@0 + 1@1 files => 306989 bytes
+2017/03/28-15:15:36.321 4a10 Delete type=2 #175
+2017/03/28-15:15:36.321 4a10 Delete type=2 #180
+2017/03/28-15:15:36.322 4a10 compacted to: files[ 0 2 27 0 0 0 0 ]
+2017/03/28-15:15:36.588 4a10 Compacting 1@1 + 2@2 files
+2017/03/28-15:15:36.612 4a10 Generated table #183: 1474 keys, 2839670 bytes
+2017/03/28-15:15:36.624 4a10 Generated table #184: 3372 keys, 855221 bytes
+2017/03/28-15:15:36.624 4a10 Compacted 1@1 + 2@2 files => 3694891 bytes
+2017/03/28-15:15:36.625 4a10 Delete type=2 #177
+2017/03/28-15:15:36.626 4a10 Delete type=2 #178
+2017/03/28-15:15:36.627 4a10 Delete type=2 #182
+2017/03/28-15:15:36.627 4a10 compacted to: files[ 0 1 27 0 0 0 0 ]
