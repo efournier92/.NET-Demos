@@ -1,23 +1,7 @@
 ﻿<RecentlyViewedMethods>
   <RecentlyViewedMethods>
+    <RecentMethod id="c342a9ff-faf1-4fc5-a485-aa4210a910b7%2838_Structs%29-42FEABB7-Index.aspx/M%3AIndex.MakePoints_Click%28System.Object%2CSystem.EventArgs%29" />
+    <RecentMethod id="e9a9c817-1b09-4cde-975f-8115a529168f%2837_MathLibrary%29-CB0FAFE4/M%3AMathLibrary.FinancialMath.GetInterest%28System.Double%2CSystem.Double%29" />
     <RecentMethod id="476e37f9-2369-4602-be00-f8d180ead6b5%2837_NameSpacing%29-F2AE58D0-Index.aspx/M%3AIndex.FindInterestButton_Click%28System.Object%2CSystem.EventArgs%29" />
-    <RecentMethod id="9faa2cb3-0fc7-4bc5-9916-490906952ec2%2835_OperatorOverloading%29-8CA1053A-App_Code/M%3AVector.%23ctor%28System.Double%2CSystem.Double%29" />
-    <RecentMethod id="9faa2cb3-0fc7-4bc5-9916-490906952ec2%2835_OperatorOverloading%29-8CA1053A-App_Code/P%3AVector.XCoord" />
-    <RecentMethod id="9faa2cb3-0fc7-4bc5-9916-490906952ec2%2835_OperatorOverloading%29-8CA1053A-App_Code/M%3AVector.ToString" />
-    <RecentMethod id="9faa2cb3-0fc7-4bc5-9916-490906952ec2%2835_OperatorOverloading%29-8CA1053A-App_Code/P%3AVector.YCoord" />
-    <RecentMethod id="3a0d4ebe-2157-41b1-b403-07b0f2e8fead%2834_NullOperator%29-E11577D6-App_Code/M%3ACar.%23ctor%28System.String%2CSystem.String%29" />
-    <RecentMethod id="6a16c96a-923d-4e7b-be8b-19c020e2ab55%2833_OptionalParameters%29-CE211356-App_Code/F%3ABook.bookType" />
-    <RecentMethod id="6a16c96a-923d-4e7b-be8b-19c020e2ab55%2833_OptionalParameters%29-CE211356-Index.aspx/M%3AIndex.SearchButton_Click%28System.Object%2CSystem.EventArgs%29" />
-    <RecentMethod id="cb9b5b17-3bc1-4048-abef-e4e7857063ff%2832_ExceptionHandling%29-26BFA0E7-Index.aspx/M%3AIndex.DivideButton_Click%28System.Object%2CSystem.EventArgs%29" />
-    <RecentMethod id="3c661b69-4179-42cb-80c3-7f178f3c1574%2831_Indexers%29-9E79222-App_Code/M%3ARecords.set_Item%28System.Int32%2CSystem.Double%29" />
-    <RecentMethod id="3c661b69-4179-42cb-80c3-7f178f3c1574%2831_Indexers%29-9E79222-Index.aspx/M%3AIndex.GetRecordsButton_Click%28System.Object%2CSystem.EventArgs%29" />
-    <RecentMethod id="c025da70-5771-4091-9583-7bb5538da342%2830_Interfaces%29-9A75D449-App_Code/M%3ADocument.Print" />
-    <RecentMethod id="c025da70-5771-4091-9583-7bb5538da342%2830_Interfaces%29-9A75D449-App_Code/M%3ADocument.%23ctor%28System.String%29" />
-    <RecentMethod id="c025da70-5771-4091-9583-7bb5538da342%2830_Interfaces%29-9A75D449-App_Code/M%3APerson.Print" />
-    <RecentMethod id="f47afd60-42f5-4e95-bd01-877ff5a8f0e9%2829_Polymorphism%29-1B7CFCCC-App_Code/M%3AShoe.GetDesc" />
-    <RecentMethod id="f47afd60-42f5-4e95-bd01-877ff5a8f0e9%2829_Polymorphism%29-1B7CFCCC-App_Code/M%3ABook.GetDesc" />
-    <RecentMethod id="f47afd60-42f5-4e95-bd01-877ff5a8f0e9%2829_Polymorphism%29-1B7CFCCC-App_Code/M%3AProduct.GetDesc" />
-    <RecentMethod id="f47afd60-42f5-4e95-bd01-877ff5a8f0e9%2829_Polymorphism%29-1B7CFCCC-App_Code/M%3ABook.%23ctor%28System.String%2CSystem.Decimal%29" />
-    <RecentMethod id="4b7bfa47-f854-4950-9893-2744ca4884ef%2828_EfficientListOperations%29-9B9C60C5-Index.aspx/M%3AIndex.Button_Click%28System.Object%2CSystem.EventArgs%29" />
   </RecentlyViewedMethods>
 </RecentlyViewedMethods>

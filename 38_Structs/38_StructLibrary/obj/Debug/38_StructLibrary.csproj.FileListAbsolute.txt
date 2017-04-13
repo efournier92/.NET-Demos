@@ -1,0 +1,4 @@
+C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\38_StructLibrary\bin\Debug\38_StructLibrary.dll
+C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\38_StructLibrary\bin\Debug\38_StructLibrary.pdb
+C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\38_StructLibrary\obj\Debug\38_StructLibrary.dll
+C:\Users\efournier\CodeSpace\NET-Demos\38_Structs\38_StructLibrary\obj\Debug\38_StructLibrary.pdb
