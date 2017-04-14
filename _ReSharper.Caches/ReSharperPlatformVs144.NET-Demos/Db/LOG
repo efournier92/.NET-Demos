@@ -54,3 +54,37 @@
 2017/03/28-16:23:46.076 4cb0 Delete type=2 #206
 2017/03/28-16:23:46.076 4cb0 Delete type=2 #207
 2017/03/28-16:23:46.077 4cb0 compacted to: files[ 0 1 31 0 0 0 0 ]
+2017/03/28-16:25:45.091 4cb0 Level-0 table #214: started
+2017/03/28-16:25:45.113 4cb0 Level-0 table #214: 4077634 bytes OK
+2017/03/28-16:25:45.115 4cb0 Delete type=0 #202
+2017/03/28-16:25:45.641 4cb0 Compacting 1@0 + 1@1 files
+2017/03/28-16:25:45.645 4cb0 Generated table #215: 252 keys, 57793 bytes
+2017/03/28-16:25:45.656 4cb0 Generated table #216: 129 keys, 2117905 bytes
+2017/03/28-16:25:45.668 4cb0 Generated table #217: 706 keys, 1727746 bytes
+2017/03/28-16:25:45.668 4cb0 Compacted 1@0 + 1@1 files => 3903444 bytes
+2017/03/28-16:25:45.671 4cb0 Delete type=2 #204
+2017/03/28-16:25:45.672 4cb0 Delete type=2 #214
+2017/03/28-16:25:45.673 4cb0 compacted to: files[ 0 3 31 0 0 0 0 ]
+2017/03/28-16:25:45.841 4cb0 Compacting 1@1 + 3@2 files
+2017/03/28-16:25:45.854 4cb0 Generated table #218: 51 keys, 2125645 bytes
+2017/03/28-16:25:45.866 4cb0 Generated table #219: 1071 keys, 2102922 bytes
+2017/03/28-16:25:45.879 4cb0 Generated table #220: 2605 keys, 2101592 bytes
+2017/03/28-16:25:45.887 4cb0 Generated table #221: 2225 keys, 551396 bytes
+2017/03/28-16:25:45.887 4cb0 Compacted 1@1 + 3@2 files => 6881555 bytes
+2017/03/28-16:25:45.888 4cb0 Delete type=2 #210
+2017/03/28-16:25:45.889 4cb0 Delete type=2 #211
+2017/03/28-16:25:45.889 4cb0 Delete type=2 #212
+2017/03/28-16:25:45.890 4cb0 Delete type=2 #217
+2017/03/28-16:25:45.891 4cb0 compacted to: files[ 0 2 32 0 0 0 0 ]
+2017/03/28-16:25:54.091 4cb0 Compacting 1@1 + 3@2 files
+2017/03/28-16:25:54.105 4cb0 Generated table #222: 845 keys, 2154821 bytes
+2017/03/28-16:25:54.116 4cb0 Generated table #223: 25 keys, 2107264 bytes
+2017/03/28-16:25:54.131 4cb0 Generated table #224: 47 keys, 2111801 bytes
+2017/03/28-16:25:54.142 4cb0 Generated table #225: 52 keys, 2122837 bytes
+2017/03/28-16:25:54.145 4cb0 Generated table #226: 1 keys, 67402 bytes
+2017/03/28-16:25:54.145 4cb0 Compacted 1@1 + 3@2 files => 8564125 bytes
+2017/03/28-16:25:54.148 4cb0 Delete type=2 #208
+2017/03/28-16:25:54.149 4cb0 Delete type=2 #209
+2017/03/28-16:25:54.150 4cb0 Delete type=2 #216
+2017/03/28-16:25:54.151 4cb0 Delete type=2 #218
+2017/03/28-16:25:54.151 4cb0 compacted to: files[ 0 1 34 0 0 0 0 ]
