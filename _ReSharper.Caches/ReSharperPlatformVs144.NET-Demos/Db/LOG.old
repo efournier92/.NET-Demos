@@ -1,80 +1,408 @@
-2017/03/27-15:18:22.633 1378 Recovering log #159
-2017/03/27-15:18:22.635 1378 Level-0 table #165: started
-2017/03/27-15:18:22.640 1378 Level-0 table #165: 392407 bytes OK
-2017/03/27-15:18:22.644 1378 Delete type=0 #159
-2017/03/27-15:18:22.645 1378 Delete type=3 #157
-2017/03/27-15:18:27.271 4a10 Compacting 1@0 + 1@1 files
-2017/03/27-15:18:27.274 4a10 Generated table #167: 434 keys, 95936 bytes
-2017/03/27-15:18:27.281 4a10 Generated table #168: 832 keys, 101797 bytes
-2017/03/27-15:18:27.281 4a10 Compacted 1@0 + 1@1 files => 197733 bytes
-2017/03/27-15:18:27.282 4a10 Delete type=2 #160
-2017/03/27-15:18:27.283 4a10 Delete type=2 #165
-2017/03/27-15:18:27.283 4a10 compacted to: files[ 0 2 26 0 0 0 0 ]
-2017/03/27-15:18:36.459 4a10 Compacting 1@1 + 2@2 files
-2017/03/27-15:18:36.478 4a10 Generated table #169: 1148 keys, 2648993 bytes
-2017/03/27-15:18:36.484 4a10 Generated table #170: 2214 keys, 684511 bytes
-2017/03/27-15:18:36.484 4a10 Compacted 1@1 + 2@2 files => 3333504 bytes
-2017/03/27-15:18:36.485 4a10 Delete type=2 #162
-2017/03/27-15:18:36.485 4a10 Delete type=2 #163
-2017/03/27-15:18:36.486 4a10 Delete type=2 #168
-2017/03/27-15:18:36.486 4a10 compacted to: files[ 0 1 26 0 0 0 0 ]
-2017/03/28-14:47:45.115 4a10 Compacting 1@1 + 1@2 files
-2017/03/28-14:47:45.133 4a10 Generated table #171: 5492 keys, 2172961 bytes
-2017/03/28-14:47:45.136 4a10 Generated table #172: 169 keys, 79438 bytes
-2017/03/28-14:47:45.136 4a10 Compacted 1@1 + 1@2 files => 2252399 bytes
-2017/03/28-14:47:45.137 4a10 Delete type=2 #119
-2017/03/28-14:47:45.137 4a10 Delete type=2 #167
-2017/03/28-14:47:45.138 4a10 compacted to: files[ 0 0 27 0 0 0 0 ]
-2017/03/28-14:51:49.328 4a10 Level-0 table #174: started
-2017/03/28-14:51:49.351 4a10 Level-0 table #174: 3429802 bytes OK
-2017/03/28-14:51:49.353 4a10 Delete type=0 #166
-2017/03/28-14:51:57.423 4a10 Compacting 1@0 + 0@1 files
-2017/03/28-14:51:57.426 4a10 Generated table #175: 116 keys, 27884 bytes
-2017/03/28-14:51:57.436 4a10 Generated table #176: 3166 keys, 441953 bytes
-2017/03/28-14:51:57.436 4a10 Compacted 1@0 + 0@1 files => 469837 bytes
-2017/03/28-14:51:57.438 4a10 Delete type=2 #174
-2017/03/28-14:51:57.438 4a10 compacted to: files[ 0 2 27 0 0 0 0 ]
-2017/03/28-14:52:35.121 4a10 Compacting 1@1 + 2@2 files
-2017/03/28-14:52:35.139 4a10 Generated table #177: 1406 keys, 2792760 bytes
-2017/03/28-14:52:35.150 4a10 Generated table #178: 3101 keys, 819098 bytes
-2017/03/28-14:52:35.150 4a10 Compacted 1@1 + 2@2 files => 3611858 bytes
-2017/03/28-14:52:35.151 4a10 Delete type=2 #169
-2017/03/28-14:52:35.152 4a10 Delete type=2 #170
-2017/03/28-14:52:35.153 4a10 Delete type=2 #176
-2017/03/28-14:52:35.153 4a10 compacted to: files[ 0 1 27 0 0 0 0 ]
-2017/03/28-15:15:10.466 4a10 Level-0 table #180: started
-2017/03/28-15:15:10.488 4a10 Level-0 table #180: 3798590 bytes OK
-2017/03/28-15:15:10.490 4a10 Delete type=0 #173
-2017/03/28-15:15:36.307 4a10 Compacting 1@0 + 1@1 files
-2017/03/28-15:15:36.310 4a10 Generated table #181: 134 keys, 31501 bytes
-2017/03/28-15:15:36.319 4a10 Generated table #182: 1076 keys, 275488 bytes
-2017/03/28-15:15:36.319 4a10 Compacted 1@0 + 1@1 files => 306989 bytes
-2017/03/28-15:15:36.321 4a10 Delete type=2 #175
-2017/03/28-15:15:36.321 4a10 Delete type=2 #180
-2017/03/28-15:15:36.322 4a10 compacted to: files[ 0 2 27 0 0 0 0 ]
-2017/03/28-15:15:36.588 4a10 Compacting 1@1 + 2@2 files
-2017/03/28-15:15:36.612 4a10 Generated table #183: 1474 keys, 2839670 bytes
-2017/03/28-15:15:36.624 4a10 Generated table #184: 3372 keys, 855221 bytes
-2017/03/28-15:15:36.624 4a10 Compacted 1@1 + 2@2 files => 3694891 bytes
-2017/03/28-15:15:36.625 4a10 Delete type=2 #177
-2017/03/28-15:15:36.626 4a10 Delete type=2 #178
-2017/03/28-15:15:36.627 4a10 Delete type=2 #182
-2017/03/28-15:15:36.627 4a10 compacted to: files[ 0 1 27 0 0 0 0 ]
-2017/03/28-15:37:03.986 4a10 Level-0 table #186: started
-2017/03/28-15:37:04.011 4a10 Level-0 table #186: 3726518 bytes OK
-2017/03/28-15:37:04.012 4a10 Delete type=0 #179
-2017/03/28-15:37:04.559 4a10 Compacting 1@0 + 1@1 files
-2017/03/28-15:37:04.562 4a10 Generated table #187: 164 keys, 38752 bytes
-2017/03/28-15:37:04.572 4a10 Generated table #188: 1754 keys, 380886 bytes
-2017/03/28-15:37:04.572 4a10 Compacted 1@0 + 1@1 files => 419638 bytes
-2017/03/28-15:37:04.573 4a10 Delete type=2 #181
-2017/03/28-15:37:04.574 4a10 Delete type=2 #186
-2017/03/28-15:37:04.574 4a10 compacted to: files[ 0 2 27 0 0 0 0 ]
-2017/03/28-15:37:04.924 4a10 Compacting 1@1 + 2@2 files
-2017/03/28-15:37:04.942 4a10 Generated table #189: 1613 keys, 2907601 bytes
-2017/03/28-15:37:04.954 4a10 Generated table #190: 3837 keys, 925476 bytes
-2017/03/28-15:37:04.954 4a10 Compacted 1@1 + 2@2 files => 3833077 bytes
-2017/03/28-15:37:04.955 4a10 Delete type=2 #183
-2017/03/28-15:37:04.956 4a10 Delete type=2 #184
-2017/03/28-15:37:04.957 4a10 Delete type=2 #188
-2017/03/28-15:37:04.958 4a10 compacted to: files[ 0 1 27 0 0 0 0 ]
+2017/03/29-09:55:39.051 52cc Recovering log #227
+2017/03/29-09:55:39.059 52cc Level-0 table #239: started
+2017/03/29-09:55:39.073 52cc Level-0 table #239: 2085384 bytes OK
+2017/03/29-09:55:39.078 52cc Delete type=0 #227
+2017/03/29-09:55:39.078 52cc Delete type=3 #191
+2017/03/29-09:55:40.106 4b10 Level-0 table #242: started
+2017/03/29-09:55:40.131 4b10 Level-0 table #242: 3162350 bytes OK
+2017/03/29-09:55:40.133 4b10 Delete type=0 #240
+2017/03/29-09:55:40.156 4b10 Level-0 table #244: started
+2017/03/29-09:55:40.184 4b10 Level-0 table #244: 3182225 bytes OK
+2017/03/29-09:55:40.185 4b10 Delete type=0 #241
+2017/03/29-09:55:40.214 4b10 Level-0 table #246: started
+2017/03/29-09:55:40.241 4b10 Level-0 table #246: 3401343 bytes OK
+2017/03/29-09:55:40.242 4b10 Delete type=0 #243
+2017/03/29-09:55:40.243 4b10 Compacting 4@0 + 1@1 files
+2017/03/29-09:55:40.256 4b10 Level-0 table #249: started
+2017/03/29-09:55:40.283 4b10 Level-0 table #249: 3420900 bytes OK
+2017/03/29-09:55:40.284 4b10 Delete type=0 #245
+2017/03/29-09:55:40.296 4b10 Generated table #247: 15063 keys, 2166569 bytes
+2017/03/29-09:55:40.319 4b10 Generated table #250: 11872 keys, 2179779 bytes
+2017/03/29-09:55:40.340 4b10 Generated table #251: 11491 keys, 2186358 bytes
+2017/03/29-09:55:40.347 4b10 Generated table #252: 2838 keys, 513680 bytes
+2017/03/29-09:55:40.368 4b10 Generated table #253: 10137 keys, 2170827 bytes
+2017/03/29-09:55:40.375 4b10 Generated table #254: 2619 keys, 600302 bytes
+2017/03/29-09:55:40.382 4b10 Generated table #255: 1446 keys, 373477 bytes
+2017/03/29-09:55:40.382 4b10 Compacted 4@0 + 1@1 files => 10190992 bytes
+2017/03/29-09:55:40.383 4b10 Delete type=2 #229
+2017/03/29-09:55:40.383 4b10 Delete type=2 #239
+2017/03/29-09:55:40.383 4b10 Delete type=2 #242
+2017/03/29-09:55:40.384 4b10 Delete type=2 #244
+2017/03/29-09:55:40.385 4b10 Delete type=2 #246
+2017/03/29-09:55:40.386 4b10 compacted to: files[ 1 7 33 0 0 0 0 ]
+2017/03/29-09:55:45.198 4b10 Compacting 1@1 + 5@2 files
+2017/03/29-09:55:45.219 4b10 Generated table #256: 1257 keys, 319502 bytes
+2017/03/29-09:55:45.219 4b10 Compacted 1@1 + 5@2 files => 319502 bytes
+2017/03/29-09:55:45.221 4b10 Delete type=2 #120
+2017/03/29-09:55:45.221 4b10 Delete type=2 #121
+2017/03/29-09:55:45.221 4b10 Delete type=2 #172
+2017/03/29-09:55:45.222 4b10 Delete type=2 #198
+2017/03/29-09:55:45.222 4b10 Delete type=2 #199
+2017/03/29-09:55:45.222 4b10 Delete type=2 #247
+2017/03/29-09:55:45.223 4b10 compacted to: files[ 1 6 29 0 0 0 0 ]
+2017/03/29-09:55:49.136 4b10 Level-0 table #258: started
+2017/03/29-09:55:49.161 4b10 Level-0 table #258: 3723250 bytes OK
+2017/03/29-09:55:49.162 4b10 Delete type=0 #248
+2017/03/29-09:55:49.174 4b10 Level-0 table #260: started
+2017/03/29-09:55:49.207 4b10 Level-0 table #260: 3927282 bytes OK
+2017/03/29-09:55:49.208 4b10 Delete type=0 #257
+2017/03/29-09:55:49.614 4b10 Level-0 table #262: started
+2017/03/29-09:55:49.666 4b10 Level-0 table #262: 4200802 bytes OK
+2017/03/29-09:55:49.667 4b10 Delete type=0 #259
+2017/03/29-09:55:49.668 4b10 Compacting 4@0 + 6@1 files
+2017/03/29-09:55:49.686 4b10 Generated table #263: 6674 keys, 2169420 bytes
+2017/03/29-09:55:49.706 4b10 Generated table #264: 12129 keys, 2180513 bytes
+2017/03/29-09:55:49.733 4b10 Generated table #265: 5236 keys, 2171025 bytes
+2017/03/29-09:55:49.752 4b10 Generated table #266: 7066 keys, 2184159 bytes
+2017/03/29-09:55:49.774 4b10 Generated table #267: 7407 keys, 2193337 bytes
+2017/03/29-09:55:49.774 4b10 Level-0 table #269: started
+2017/03/29-09:55:49.824 4b10 Level-0 table #269: 4620412 bytes OK
+2017/03/29-09:55:49.825 4b10 Delete type=0 #261
+2017/03/29-09:55:49.851 4b10 Generated table #270: 7080 keys, 1454022 bytes
+2017/03/29-09:55:49.874 4b10 Generated table #271: 8607 keys, 2189596 bytes
+2017/03/29-09:55:49.901 4b10 Generated table #272: 8371 keys, 2202774 bytes
+2017/03/29-09:55:49.920 4b10 Generated table #273: 4778 keys, 2233530 bytes
+2017/03/29-09:55:49.939 4b10 Generated table #274: 3410 keys, 2182689 bytes
+2017/03/29-09:55:49.961 4b10 Generated table #275: 2067 keys, 1868629 bytes
+2017/03/29-09:55:49.970 4b10 Generated table #276: 1299 keys, 240008 bytes
+2017/03/29-09:55:49.970 4b10 Compacted 4@0 + 6@1 files => 23269702 bytes
+2017/03/29-09:55:49.971 4b10 Delete type=2 #249
+2017/03/29-09:55:49.972 4b10 Delete type=2 #250
+2017/03/29-09:55:49.973 4b10 Delete type=2 #251
+2017/03/29-09:55:49.974 4b10 Delete type=2 #252
+2017/03/29-09:55:49.974 4b10 Delete type=2 #253
+2017/03/29-09:55:49.974 4b10 Delete type=2 #254
+2017/03/29-09:55:49.975 4b10 Delete type=2 #255
+2017/03/29-09:55:49.975 4b10 Delete type=2 #258
+2017/03/29-09:55:49.977 4b10 Delete type=2 #260
+2017/03/29-09:55:49.978 4b10 Delete type=2 #262
+2017/03/29-09:55:49.979 4b10 compacted to: files[ 1 12 29 0 0 0 0 ]
+2017/03/29-09:55:49.979 4b10 Compacting 1@1 + 2@2 files
+2017/03/29-09:55:50.000 4b10 Generated table #277: 5367 keys, 2171823 bytes
+2017/03/29-09:55:50.010 4b10 Generated table #278: 2187 keys, 891134 bytes
+2017/03/29-09:55:50.010 4b10 Compacted 1@1 + 2@2 files => 3062957 bytes
+2017/03/29-09:55:50.011 4b10 Delete type=2 #122
+2017/03/29-09:55:50.012 4b10 Delete type=2 #256
+2017/03/29-09:55:50.012 4b10 Delete type=2 #263
+2017/03/29-09:55:50.013 4b10 compacted to: files[ 1 11 29 0 0 0 0 ]
+2017/03/29-09:55:50.013 4b10 Compacting 1@1 + 5@2 files
+2017/03/29-09:55:50.045 4b10 Generated table #279: 5349 keys, 2171589 bytes
+2017/03/29-09:55:50.055 4b10 Generated table #280: 1785 keys, 1157961 bytes
+2017/03/29-09:55:50.055 4b10 Compacted 1@1 + 5@2 files => 3329550 bytes
+2017/03/29-09:55:50.056 4b10 Delete type=2 #123
+2017/03/29-09:55:50.056 4b10 Delete type=2 #124
+2017/03/29-09:55:50.057 4b10 Delete type=2 #125
+2017/03/29-09:55:50.057 4b10 Delete type=2 #264
+2017/03/29-09:55:50.058 4b10 Delete type=2 #277
+2017/03/29-09:55:50.058 4b10 Delete type=2 #278
+2017/03/29-09:55:50.059 4b10 compacted to: files[ 1 10 26 0 0 0 0 ]
+2017/03/29-09:55:50.059 4b10 Compacting 1@1 + 2@2 files
+2017/03/29-09:55:50.076 4b10 Generated table #281: 5473 keys, 2168145 bytes
+2017/03/29-09:55:50.100 4b10 Generated table #282: 4407 keys, 2172809 bytes
+2017/03/29-09:55:50.108 4b10 Level-0 table #285: started
+2017/03/29-09:55:50.139 4b10 Level-0 table #285: 4216697 bytes OK
+2017/03/29-09:55:50.141 4b10 Delete type=0 #268
+2017/03/29-09:55:50.144 4b10 Generated table #284: 132 keys, 52416 bytes
+2017/03/29-09:55:50.144 4b10 Compacted 1@1 + 2@2 files => 4393370 bytes
+2017/03/29-09:55:50.146 4b10 Delete type=2 #265
+2017/03/29-09:55:50.146 4b10 Delete type=2 #279
+2017/03/29-09:55:50.147 4b10 Delete type=2 #280
+2017/03/29-09:55:50.147 4b10 compacted to: files[ 2 9 27 0 0 0 0 ]
+2017/03/29-09:55:50.147 4b10 Compacting 1@1 + 6@2 files
+2017/03/29-09:55:50.164 4b10 Generated table #286: 4158 keys, 2170040 bytes
+2017/03/29-09:55:50.185 4b10 Generated table #287: 2251 keys, 1415899 bytes
+2017/03/29-09:55:50.186 4b10 Compacted 1@1 + 6@2 files => 3585939 bytes
+2017/03/29-09:55:50.187 4b10 Delete type=2 #66
+2017/03/29-09:55:50.187 4b10 Delete type=2 #67
+2017/03/29-09:55:50.187 4b10 Delete type=2 #101
+2017/03/29-09:55:50.188 4b10 Delete type=2 #126
+2017/03/29-09:55:50.188 4b10 Delete type=2 #266
+2017/03/29-09:55:50.188 4b10 Delete type=2 #282
+2017/03/29-09:55:50.189 4b10 Delete type=2 #284
+2017/03/29-09:55:50.189 4b10 compacted to: files[ 2 8 23 0 0 0 0 ]
+2017/03/29-09:55:50.189 4b10 Compacting 1@1 + 3@2 files
+2017/03/29-09:55:50.215 4b10 Generated table #288: 2474 keys, 2141973 bytes
+2017/03/29-09:55:50.215 4b10 Compacted 1@1 + 3@2 files => 2141973 bytes
+2017/03/29-09:55:50.216 4b10 Delete type=2 #68
+2017/03/29-09:55:50.217 4b10 Delete type=2 #69
+2017/03/29-09:55:50.217 4b10 Delete type=2 #267
+2017/03/29-09:55:50.218 4b10 Delete type=2 #287
+2017/03/29-09:55:50.218 4b10 compacted to: files[ 2 7 21 0 0 0 0 ]
+2017/03/29-09:55:50.218 4b10 Compacting 1@1 + 3@2 files
+2017/03/29-09:55:50.241 4b10 Generated table #289: 1532 keys, 1468825 bytes
+2017/03/29-09:55:50.241 4b10 Compacted 1@1 + 3@2 files => 1468825 bytes
+2017/03/29-09:55:50.242 4b10 Delete type=2 #70
+2017/03/29-09:55:50.242 4b10 Delete type=2 #71
+2017/03/29-09:55:50.243 4b10 Delete type=2 #270
+2017/03/29-09:55:50.244 4b10 Delete type=2 #288
+2017/03/29-09:55:50.244 4b10 compacted to: files[ 2 6 19 0 0 0 0 ]
+2017/03/29-09:55:50.244 4b10 Compacting 1@1 + 5@2 files
+2017/03/29-09:55:50.275 4b10 Generated table #290: 2340 keys, 2046787 bytes
+2017/03/29-09:55:50.275 4b10 Compacted 1@1 + 5@2 files => 2046787 bytes
+2017/03/29-09:55:50.276 4b10 Delete type=2 #72
+2017/03/29-09:55:50.276 4b10 Delete type=2 #73
+2017/03/29-09:55:50.277 4b10 Delete type=2 #86
+2017/03/29-09:55:50.277 4b10 Delete type=2 #88
+2017/03/29-09:55:50.277 4b10 Delete type=2 #90
+2017/03/29-09:55:50.278 4b10 Delete type=2 #271
+2017/03/29-09:55:50.278 4b10 compacted to: files[ 2 5 15 0 0 0 0 ]
+2017/03/29-09:55:50.293 4b10 Level-0 table #292: started
+2017/03/29-09:55:50.316 4b10 Level-0 table #292: 3759237 bytes OK
+2017/03/29-09:55:50.317 4b10 Delete type=0 #283
+2017/03/29-09:55:50.363 4b10 Level-0 table #294: started
+2017/03/29-09:55:50.400 4b10 Level-0 table #294: 3943004 bytes OK
+2017/03/29-09:55:50.401 4b10 Delete type=0 #291
+2017/03/29-09:55:50.402 4b10 Compacting 4@0 + 4@1 files
+2017/03/29-09:55:50.420 4b10 Generated table #295: 4741 keys, 2167884 bytes
+2017/03/29-09:55:50.439 4b10 Generated table #296: 4575 keys, 2168408 bytes
+2017/03/29-09:55:50.458 4b10 Generated table #297: 2782 keys, 2180676 bytes
+2017/03/29-09:55:50.480 4b10 Generated table #298: 2753 keys, 2180852 bytes
+2017/03/29-09:55:50.501 4b10 Generated table #299: 3089 keys, 2172205 bytes
+2017/03/29-09:55:50.518 4b10 Generated table #300: 2614 keys, 2185941 bytes
+2017/03/29-09:55:50.534 4b10 Generated table #301: 2622 keys, 2181785 bytes
+2017/03/29-09:55:50.552 4b10 Generated table #302: 4476 keys, 2192130 bytes
+2017/03/29-09:55:50.572 4b10 Generated table #303: 8153 keys, 2208199 bytes
+2017/03/29-09:55:50.588 4b10 Generated table #304: 2439 keys, 2231408 bytes
+2017/03/29-09:55:50.604 4b10 Generated table #305: 3451 keys, 2165620 bytes
+2017/03/29-09:55:50.613 4b10 Generated table #306: 931 keys, 961844 bytes
+2017/03/29-09:55:50.613 4b10 Compacted 4@0 + 4@1 files => 24996952 bytes
+2017/03/29-09:55:50.615 4b10 Delete type=2 #269
+2017/03/29-09:55:50.615 4b10 Delete type=2 #272
+2017/03/29-09:55:50.616 4b10 Delete type=2 #273
+2017/03/29-09:55:50.617 4b10 Delete type=2 #274
+2017/03/29-09:55:50.617 4b10 Delete type=2 #275
+2017/03/29-09:55:50.618 4b10 Delete type=2 #285
+2017/03/29-09:55:50.618 4b10 Delete type=2 #292
+2017/03/29-09:55:50.619 4b10 Delete type=2 #294
+2017/03/29-09:55:50.620 4b10 compacted to: files[ 0 13 15 0 0 0 0 ]
+2017/03/29-09:55:50.620 4b10 Compacting 1@1 + 2@2 files
+2017/03/29-09:55:50.640 4b10 Generated table #307: 1930 keys, 2185107 bytes
+2017/03/29-09:55:50.643 4b10 Generated table #308: 157 keys, 84884 bytes
+2017/03/29-09:55:50.643 4b10 Compacted 1@1 + 2@2 files => 2269991 bytes
+2017/03/29-09:55:50.644 4b10 Delete type=2 #92
+2017/03/29-09:55:50.645 4b10 Delete type=2 #290
+2017/03/29-09:55:50.646 4b10 Delete type=2 #302
+2017/03/29-09:55:50.646 4b10 compacted to: files[ 0 12 15 0 0 0 0 ]
+2017/03/29-09:55:50.646 4b10 Compacting 1@1 + 5@2 files
+2017/03/29-09:55:50.667 4b10 Generated table #309: 890 keys, 1363371 bytes
+2017/03/29-09:55:50.667 4b10 Compacted 1@1 + 5@2 files => 1363371 bytes
+2017/03/29-09:55:50.668 4b10 Delete type=2 #102
+2017/03/29-09:55:50.668 4b10 Delete type=2 #103
+2017/03/29-09:55:50.669 4b10 Delete type=2 #111
+2017/03/29-09:55:50.669 4b10 Delete type=2 #303
+2017/03/29-09:55:50.670 4b10 Delete type=2 #307
+2017/03/29-09:55:50.670 4b10 Delete type=2 #308
+2017/03/29-09:55:50.671 4b10 compacted to: files[ 0 11 11 0 0 0 0 ]
+2017/03/29-09:55:50.671 4b10 Expanding@1 1+2 to 3+2
+2017/03/29-09:55:50.671 4b10 Compacting 3@1 + 2@2 files
+2017/03/29-09:55:50.686 4b10 Generated table #310: 1418 keys, 2210317 bytes
+2017/03/29-09:55:50.703 4b10 Generated table #311: 3321 keys, 2185046 bytes
+2017/03/29-09:55:50.723 4b10 Generated table #312: 2145 keys, 2171526 bytes
+2017/03/29-09:55:50.740 4b10 Generated table #313: 164 keys, 1217167 bytes
+2017/03/29-09:55:50.740 4b10 Compacted 3@1 + 2@2 files => 7784056 bytes
+2017/03/29-09:55:50.785 4b10 Delete type=2 #231
+2017/03/29-09:55:50.786 4b10 Delete type=2 #304
+2017/03/29-09:55:50.786 4b10 Delete type=2 #305
+2017/03/29-09:55:50.787 4b10 Delete type=2 #306
+2017/03/29-09:55:50.787 4b10 Delete type=2 #309
+2017/03/29-09:55:50.788 4b10 compacted to: files[ 0 8 13 0 0 0 0 ]
+2017/03/29-09:55:50.788 4b10 Level-0 table #315: started
+2017/03/29-09:55:50.813 4b10 Level-0 table #315: 4158987 bytes OK
+2017/03/29-09:55:50.818 4b10 Delete type=0 #293
+2017/03/29-09:55:50.819 4b10 Compacting 1@1 + 5@2 files
+2017/03/29-09:55:50.830 4b10 Generated table #316: 47 keys, 2111801 bytes
+2017/03/29-09:55:50.847 4b10 Generated table #317: 52 keys, 2122837 bytes
+2017/03/29-09:55:50.859 4b10 Generated table #318: 931 keys, 2104228 bytes
+2017/03/29-09:55:50.870 4b10 Generated table #319: 320 keys, 2124556 bytes
+2017/03/29-09:55:50.879 4b10 Generated table #320: 5538 keys, 743010 bytes
+2017/03/29-09:55:50.879 4b10 Compacted 1@1 + 5@2 files => 9206432 bytes
+2017/03/29-09:55:50.880 4b10 Delete type=2 #233
+2017/03/29-09:55:50.880 4b10 Delete type=2 #234
+2017/03/29-09:55:50.881 4b10 Delete type=2 #235
+2017/03/29-09:55:50.881 4b10 Delete type=2 #236
+2017/03/29-09:55:50.881 4b10 Delete type=2 #237
+2017/03/29-09:55:50.882 4b10 Delete type=2 #276
+2017/03/29-09:55:50.882 4b10 compacted to: files[ 1 7 13 0 0 0 0 ]
+2017/03/29-09:55:50.882 4b10 Compacting 1@1 + 1@2 files
+2017/03/29-09:55:50.899 4b10 Generated table #321: 5576 keys, 2170803 bytes
+2017/03/29-09:55:50.917 4b10 Generated table #322: 4638 keys, 2157617 bytes
+2017/03/29-09:55:50.917 4b10 Compacted 1@1 + 1@2 files => 4328420 bytes
+2017/03/29-09:55:50.918 4b10 Delete type=2 #281
+2017/03/29-09:55:50.918 4b10 Delete type=2 #295
+2017/03/29-09:55:50.919 4b10 compacted to: files[ 1 6 14 0 0 0 0 ]
+2017/03/29-09:55:50.919 4b10 Compacting 1@1 + 1@2 files
+2017/03/29-09:55:50.969 4b10 Generated table #323: 4669 keys, 2165122 bytes
+2017/03/29-09:55:50.989 4b10 Generated table #324: 4544 keys, 2160887 bytes
+2017/03/29-09:55:50.989 4b10 Compacted 1@1 + 1@2 files => 4326009 bytes
+2017/03/29-09:55:51.022 4b10 Delete type=2 #296
+2017/03/29-09:55:51.022 4b10 Delete type=2 #322
+2017/03/29-09:55:51.023 4b10 compacted to: files[ 1 5 15 0 0 0 0 ]
+2017/03/29-09:55:51.023 4b10 Compacting 1@1 + 3@2 files
+2017/03/29-09:55:51.040 4b10 Generated table #325: 4345 keys, 2171248 bytes
+2017/03/29-09:55:51.056 4b10 Generated table #326: 4287 keys, 2171407 bytes
+2017/03/29-09:55:51.072 4b10 Generated table #327: 2467 keys, 2192088 bytes
+2017/03/29-09:55:51.084 4b10 Generated table #328: 1917 keys, 1449000 bytes
+2017/03/29-09:55:51.084 4b10 Compacted 1@1 + 3@2 files => 7983743 bytes
+2017/03/29-09:55:51.085 4b10 Delete type=2 #286
+2017/03/29-09:55:51.086 4b10 Delete type=2 #289
+2017/03/29-09:55:51.086 4b10 Delete type=2 #297
+2017/03/29-09:55:51.087 4b10 Delete type=2 #324
+2017/03/29-09:55:51.087 4b10 compacted to: files[ 1 4 16 0 0 0 0 ]
+2017/03/29-09:55:51.248 4b10 Level-0 table #330: started
+2017/03/29-09:55:51.273 4b10 Level-0 table #330: 4190371 bytes OK
+2017/03/29-09:55:51.275 4b10 Delete type=0 #314
+2017/03/29-09:55:51.353 4b10 Level-0 table #332: started
+2017/03/29-09:55:51.376 4b10 Level-0 table #332: 3693555 bytes OK
+2017/03/29-09:55:51.377 4b10 Delete type=0 #329
+2017/03/29-09:55:51.602 4b10 Level-0 table #334: started
+2017/03/29-09:55:51.627 4b10 Level-0 table #334: 3991744 bytes OK
+2017/03/29-09:55:51.628 4b10 Delete type=0 #331
+2017/03/29-09:55:51.629 4b10 Compacting 4@0 + 4@1 files
+2017/03/29-09:55:51.673 4b10 Generated table #335: 4583 keys, 2169484 bytes
+2017/03/29-09:55:51.696 4b10 Generated table #336: 5144 keys, 2160788 bytes
+2017/03/29-09:55:51.713 4b10 Generated table #337: 3279 keys, 2171780 bytes
+2017/03/29-09:55:51.730 4b10 Generated table #338: 2681 keys, 2178227 bytes
+2017/03/29-09:55:51.747 4b10 Generated table #339: 2608 keys, 2182241 bytes
+2017/03/29-09:55:51.767 4b10 Generated table #340: 2975 keys, 2188105 bytes
+2017/03/29-09:55:51.790 4b10 Generated table #341: 2342 keys, 2172843 bytes
+2017/03/29-09:55:51.808 4b10 Generated table #342: 2770 keys, 2178920 bytes
+2017/03/29-09:55:51.826 4b10 Generated table #343: 3179 keys, 2173957 bytes
+2017/03/29-09:55:51.843 4b10 Generated table #344: 2820 keys, 2173319 bytes
+2017/03/29-09:55:51.859 4b10 Generated table #345: 2816 keys, 2181371 bytes
+2017/03/29-09:55:51.869 4b10 Generated table #346: 871 keys, 808094 bytes
+2017/03/29-09:55:51.875 4b10 Generated table #347: 10 keys, 635 bytes
+2017/03/29-09:55:51.875 4b10 Compacted 4@0 + 4@1 files => 24739764 bytes
+2017/03/29-09:55:51.876 4b10 Delete type=2 #298
+2017/03/29-09:55:51.877 4b10 Delete type=2 #299
+2017/03/29-09:55:51.877 4b10 Delete type=2 #300
+2017/03/29-09:55:51.878 4b10 Delete type=2 #301
+2017/03/29-09:55:51.878 4b10 Delete type=2 #315
+2017/03/29-09:55:51.879 4b10 Delete type=2 #330
+2017/03/29-09:55:51.880 4b10 Delete type=2 #332
+2017/03/29-09:55:51.881 4b10 Delete type=2 #334
+2017/03/29-09:55:51.881 4b10 compacted to: files[ 0 13 16 0 0 0 0 ]
+2017/03/29-09:55:51.881 4b10 Compacting 1@1 + 3@2 files
+2017/03/29-09:55:51.905 4b10 Generated table #348: 4288 keys, 2163462 bytes
+2017/03/29-09:55:51.923 4b10 Generated table #349: 2876 keys, 2185743 bytes
+2017/03/29-09:55:51.940 4b10 Generated table #350: 2792 keys, 2188387 bytes
+2017/03/29-09:55:51.952 4b10 Generated table #351: 1994 keys, 1443586 bytes
+2017/03/29-09:55:51.952 4b10 Compacted 1@1 + 3@2 files => 7981178 bytes
+2017/03/29-09:55:51.953 4b10 Delete type=2 #326
+2017/03/29-09:55:51.953 4b10 Delete type=2 #327
+2017/03/29-09:55:51.954 4b10 Delete type=2 #328
+2017/03/29-09:55:51.955 4b10 Delete type=2 #337
+2017/03/29-09:55:51.955 4b10 compacted to: files[ 0 12 17 0 0 0 0 ]
+2017/03/29-09:55:51.956 4b10 Moved #338 to level-2 2178227 bytes OK: files[ 0 11 18 0 0 0 0 ]
+2017/03/29-09:55:51.957 4b10 Moved #339 to level-2 2182241 bytes OK: files[ 0 10 19 0 0 0 0 ]
+2017/03/29-09:55:51.958 4b10 Moved #340 to level-2 2188105 bytes OK: files[ 0 9 20 0 0 0 0 ]
+2017/03/29-09:55:51.958 4b10 Compacting 1@1 + 1@2 files
+2017/03/29-09:55:51.974 4b10 Generated table #352: 1646 keys, 2183494 bytes
+2017/03/29-09:55:51.990 4b10 Generated table #353: 2114 keys, 2199899 bytes
+2017/03/29-09:55:51.990 4b10 Compacted 1@1 + 1@2 files => 4383393 bytes
+2017/03/29-09:55:51.991 4b10 Delete type=2 #310
+2017/03/29-09:55:51.991 4b10 Delete type=2 #341
+2017/03/29-09:55:51.992 4b10 compacted to: files[ 0 8 21 0 0 0 0 ]
+2017/03/29-09:55:51.992 4b10 Compacting 1@1 + 1@2 files
+2017/03/29-09:55:52.008 4b10 Generated table #354: 2561 keys, 2172125 bytes
+2017/03/29-09:55:52.024 4b10 Generated table #355: 2323 keys, 2206896 bytes
+2017/03/29-09:55:52.024 4b10 Compacted 1@1 + 1@2 files => 4379021 bytes
+2017/03/29-09:55:52.026 4b10 Delete type=2 #342
+2017/03/29-09:55:52.027 4b10 Delete type=2 #353
+2017/03/29-09:55:52.027 4b10 compacted to: files[ 0 7 22 0 0 0 0 ]
+2017/03/29-09:55:52.027 4b10 Compacting 1@1 + 1@2 files
+2017/03/29-09:55:52.047 4b10 Generated table #356: 2743 keys, 2178798 bytes
+2017/03/29-09:55:52.063 4b10 Generated table #357: 2759 keys, 2202209 bytes
+2017/03/29-09:55:52.063 4b10 Compacted 1@1 + 1@2 files => 4381007 bytes
+2017/03/29-09:55:52.064 4b10 Delete type=2 #343
+2017/03/29-09:55:52.064 4b10 Delete type=2 #355
+2017/03/29-09:55:52.065 4b10 compacted to: files[ 0 6 23 0 0 0 0 ]
+2017/03/29-09:55:52.180 4b10 Expanding@1 1+4 to 3+4
+2017/03/29-09:55:52.180 4b10 Compacting 3@1 + 4@2 files
+2017/03/29-09:55:52.200 4b10 Generated table #358: 3175 keys, 2161715 bytes
+2017/03/29-09:55:52.216 4b10 Generated table #359: 3038 keys, 2183302 bytes
+2017/03/29-09:55:52.236 4b10 Generated table #360: 2420 keys, 2186302 bytes
+2017/03/29-09:55:52.255 4b10 Generated table #361: 2575 keys, 2212588 bytes
+2017/03/29-09:55:52.271 4b10 Generated table #362: 3014 keys, 2171946 bytes
+2017/03/29-09:55:52.286 4b10 Generated table #363: 672 keys, 2014132 bytes
+2017/03/29-09:55:52.286 4b10 Compacted 3@1 + 4@2 files => 12929985 bytes
+2017/03/29-09:55:52.288 4b10 Delete type=2 #311
+2017/03/29-09:55:52.288 4b10 Delete type=2 #312
+2017/03/29-09:55:52.289 4b10 Delete type=2 #313
+2017/03/29-09:55:52.290 4b10 Delete type=2 #344
+2017/03/29-09:55:52.290 4b10 Delete type=2 #345
+2017/03/29-09:55:52.291 4b10 Delete type=2 #346
+2017/03/29-09:55:52.292 4b10 Delete type=2 #357
+2017/03/29-09:55:52.292 4b10 compacted to: files[ 0 3 25 0 0 0 0 ]
+2017/03/29-09:55:52.647 4b10 Level-0 table #365: started
+2017/03/29-09:55:52.687 4b10 Level-0 table #365: 4156508 bytes OK
+2017/03/29-09:55:52.689 4b10 Delete type=0 #333
+2017/03/29-09:55:52.900 4b10 Compacting 1@1 + 5@2 files
+2017/03/29-09:55:52.911 4b10 Generated table #366: 47 keys, 2111801 bytes
+2017/03/29-09:55:52.924 4b10 Generated table #367: 52 keys, 2122837 bytes
+2017/03/29-09:55:52.936 4b10 Generated table #368: 931 keys, 2104228 bytes
+2017/03/29-09:55:52.947 4b10 Generated table #369: 320 keys, 2124632 bytes
+2017/03/29-09:55:52.955 4b10 Generated table #370: 5538 keys, 743010 bytes
+2017/03/29-09:55:52.955 4b10 Compacted 1@1 + 5@2 files => 9206508 bytes
+2017/03/29-09:55:52.956 4b10 Delete type=2 #316
+2017/03/29-09:55:52.957 4b10 Delete type=2 #317
+2017/03/29-09:55:52.957 4b10 Delete type=2 #318
+2017/03/29-09:55:52.958 4b10 Delete type=2 #319
+2017/03/29-09:55:52.959 4b10 Delete type=2 #320
+2017/03/29-09:55:52.959 4b10 Delete type=2 #347
+2017/03/29-09:55:52.960 4b10 compacted to: files[ 1 2 25 0 0 0 0 ]
+2017/03/29-09:55:54.700 4b10 Compacting 1@0 + 2@1 files
+2017/03/29-09:55:54.717 4b10 Generated table #371: 4602 keys, 2167303 bytes
+2017/03/29-09:55:54.734 4b10 Generated table #372: 5141 keys, 2161413 bytes
+2017/03/29-09:55:54.745 4b10 Generated table #373: 1898 keys, 884252 bytes
+2017/03/29-09:55:54.761 4b10 Generated table #374: 2771 keys, 2191255 bytes
+2017/03/29-09:55:54.769 4b10 Generated table #375: 1315 keys, 1081250 bytes
+2017/03/29-09:55:54.769 4b10 Compacted 1@0 + 2@1 files => 8485473 bytes
+2017/03/29-09:55:54.770 4b10 Delete type=2 #335
+2017/03/29-09:55:54.771 4b10 Delete type=2 #336
+2017/03/29-09:55:54.772 4b10 Delete type=2 #365
+2017/03/29-09:55:54.772 4b10 compacted to: files[ 0 5 25 0 0 0 0 ]
+2017/03/29-09:56:06.505 4b10 Expanding@1 1+4 to 2+4
+2017/03/29-09:56:06.505 4b10 Compacting 2@1 + 4@2 files
+2017/03/29-09:56:06.558 4b10 Generated table #376: 2690 keys, 2179141 bytes
+2017/03/29-09:56:06.605 4b10 Generated table #377: 2569 keys, 2197282 bytes
+2017/03/29-09:56:06.690 4b10 Generated table #378: 2080 keys, 2209336 bytes
+2017/03/29-09:56:06.837 4b10 Generated table #379: 3552 keys, 2172941 bytes
+2017/03/29-09:56:06.910 4b10 Generated table #380: 1866 keys, 2247135 bytes
+2017/03/29-09:56:06.940 4b10 Generated table #381: 10 keys, 842944 bytes
+2017/03/29-09:56:06.940 4b10 Compacted 2@1 + 4@2 files => 11848779 bytes
+2017/03/29-09:56:06.941 4b10 Delete type=2 #360
+2017/03/29-09:56:06.942 4b10 Delete type=2 #361
+2017/03/29-09:56:06.943 4b10 Delete type=2 #362
+2017/03/29-09:56:06.943 4b10 Delete type=2 #363
+2017/03/29-09:56:06.944 4b10 Delete type=2 #374
+2017/03/29-09:56:06.945 4b10 Delete type=2 #375
+2017/03/29-09:56:06.945 4b10 compacted to: files[ 0 3 27 0 0 0 0 ]
+2017/03/29-09:56:28.695 4b10 Compacting 1@1 + 4@2 files
+2017/03/29-09:56:28.715 4b10 Generated table #382: 5630 keys, 2170003 bytes
+2017/03/29-09:56:28.734 4b10 Generated table #383: 4651 keys, 2165200 bytes
+2017/03/29-09:56:28.752 4b10 Generated table #384: 4402 keys, 2169579 bytes
+2017/03/29-09:56:28.773 4b10 Generated table #385: 4191 keys, 2174369 bytes
+2017/03/29-09:56:28.791 4b10 Generated table #386: 4606 keys, 2146688 bytes
+2017/03/29-09:56:28.791 4b10 Compacted 1@1 + 4@2 files => 10825839 bytes
+2017/03/29-09:56:28.792 4b10 Delete type=2 #321
+2017/03/29-09:56:28.793 4b10 Delete type=2 #323
+2017/03/29-09:56:28.794 4b10 Delete type=2 #325
+2017/03/29-09:56:28.794 4b10 Delete type=2 #348
+2017/03/29-09:56:28.795 4b10 Delete type=2 #371
+2017/03/29-09:56:28.795 4b10 compacted to: files[ 0 2 28 0 0 0 0 ]
+2017/03/29-09:56:28.827 4b10 Compacting 1@1 + 1@2 files
+2017/03/29-09:56:28.845 4b10 Generated table #387: 4972 keys, 2160993 bytes
+2017/03/29-09:56:28.863 4b10 Generated table #388: 4775 keys, 2147340 bytes
+2017/03/29-09:56:28.863 4b10 Compacted 1@1 + 1@2 files => 4308333 bytes
+2017/03/29-09:56:28.865 4b10 Delete type=2 #372
+2017/03/29-09:56:28.865 4b10 Delete type=2 #386
+2017/03/29-09:56:28.866 4b10 compacted to: files[ 0 1 29 0 0 0 0 ]
+2017/03/29-09:56:34.278 4b10 Compacting 1@1 + 2@2 files
+2017/03/29-09:56:34.297 4b10 Generated table #389: 4510 keys, 2160961 bytes
+2017/03/29-09:56:34.318 4b10 Generated table #390: 4100 keys, 2170184 bytes
+2017/03/29-09:56:34.328 4b10 Generated table #391: 939 keys, 886065 bytes
+2017/03/29-09:56:34.328 4b10 Compacted 1@1 + 2@2 files => 5217210 bytes
+2017/03/29-09:56:34.333 4b10 Delete type=2 #349
+2017/03/29-09:56:34.335 4b10 Delete type=2 #373
+2017/03/29-09:56:34.335 4b10 Delete type=2 #388
+2017/03/29-09:56:34.336 4b10 compacted to: files[ 0 0 30 0 0 0 0 ]
