@@ -2,11 +2,6 @@
 
 public partial class Index : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
-
-    }
-
     protected void numSquares_TextChanged(object sender, EventArgs e)
     {
         sampleLabel.Text = "";
