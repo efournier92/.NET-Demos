@@ -1,5 +1,0 @@
-C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\37_MathLibrary\bin\Debug\37_MathLibrary.dll
-C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\37_MathLibrary\bin\Debug\37_MathLibrary.pdb
-C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\37_MathLibrary\obj\Debug\37_MathLibrary.csprojResolveAssemblyReference.cache
-C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\37_MathLibrary\obj\Debug\37_MathLibrary.dll
-C:\Users\efournier\CodeSpace\NET-Demos\37_NameSpacing\37_MathLibrary\obj\Debug\37_MathLibrary.pdb
