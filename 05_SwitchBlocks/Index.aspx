@@ -4,10 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Switch Blocks</title>
 </head>
 <body>
-    <form id="switchDropDown" runat="server">
+    <form runat="server">
         <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True">
             <asp:ListItem Selected="True"></asp:ListItem>
             <asp:ListItem>Apple</asp:ListItem>
