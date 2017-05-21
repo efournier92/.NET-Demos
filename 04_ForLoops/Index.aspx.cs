@@ -22,6 +22,6 @@ public partial class Index : System.Web.UI.Page
             forEachLabel.Text += "<br>" + c;
             charCount++;
         }
-        forEachLabel.Text += "<br><br>Input Has <b>" + charCount + "</b> Characters";
+        forEachLabel.Text += $"<br><br>Input Has <b>{charCount}</b>Characters";
     }
 }

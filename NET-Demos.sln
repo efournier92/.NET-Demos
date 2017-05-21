@@ -69,6 +69,50 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "03_WhileLoops", "03_WhileLo
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "04_ForLoops", "04_ForLoops\", "{C97D5619-F49B-41D3-814C-265B90A360BB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65452"
+		Debug.AspNetCompiler.PhysicalPath = "04_ForLoops\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65452\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65452"
+		Release.AspNetCompiler.PhysicalPath = "04_ForLoops\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65452\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65452"
+		SlnRelativePath = "04_ForLoops\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "05_SwitchBlocks", "05_SwitchBlocks\", "{CDB70AAD-72B1-4CAD-82A1-5DD91A98BEB8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58630"
+		Debug.AspNetCompiler.PhysicalPath = "05_SwitchBlocks\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58630\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58630"
+		Release.AspNetCompiler.PhysicalPath = "05_SwitchBlocks\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58630\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58630"
+		SlnRelativePath = "05_SwitchBlocks\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +124,10 @@ Global
 		{00312715-21BC-4A2B-9034-5D13D258B2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8593756-7117-4B2C-A5E6-FBAB46B2381E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8593756-7117-4B2C-A5E6-FBAB46B2381E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97D5619-F49B-41D3-814C-265B90A360BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97D5619-F49B-41D3-814C-265B90A360BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB70AAD-72B1-4CAD-82A1-5DD91A98BEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB70AAD-72B1-4CAD-82A1-5DD91A98BEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
