@@ -113,6 +113,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "05_SwitchBlocks", "05_Switc
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "06_TryParse", "06_TryParse\", "{D78466F1-B2CC-45FF-A759-AC88A52ECB92}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59187"
+		Debug.AspNetCompiler.PhysicalPath = "06_TryParse\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59187\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59187"
+		Release.AspNetCompiler.PhysicalPath = "06_TryParse\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59187\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59187"
+		SlnRelativePath = "06_TryParse\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +150,8 @@ Global
 		{C97D5619-F49B-41D3-814C-265B90A360BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB70AAD-72B1-4CAD-82A1-5DD91A98BEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CDB70AAD-72B1-4CAD-82A1-5DD91A98BEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78466F1-B2CC-45FF-A759-AC88A52ECB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78466F1-B2CC-45FF-A759-AC88A52ECB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

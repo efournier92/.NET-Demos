@@ -16,11 +16,9 @@
         <h2>For Each Loop</h2>
         <asp:TextBox ID="forEachTextBox" runat="server" OnTextChanged="forEachTextBox_TextChanged"></asp:TextBox>
         <br />
-        
+
         <br />
         <asp:Label ID="forEachLabel" runat="server"></asp:Label>
-        
     </form>
-    
 </body>
 </html>
