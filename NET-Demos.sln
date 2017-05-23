@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "01_SimpleSiteDemo", "01_SimpleSiteDemo\", "{5EB6990E-11EC-46D0-A6EB-F7D6E4E20967}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "01_SimpleSiteDemo", "01_SimpleSiteDemo", "{5EB6990E-11EC-46D0-A6EB-F7D6E4E20967}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64279"
@@ -25,7 +25,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "01_SimpleSiteDemo", "01_Sim
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "02_NumLoopSiteDemo", "02_NumLoopSiteDemo\", "{00312715-21BC-4A2B-9034-5D13D258B2E0}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "02_NumLoopSiteDemo", "02_NumLoopSiteDemo", "{00312715-21BC-4A2B-9034-5D13D258B2E0}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64316"
@@ -47,7 +47,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "02_NumLoopSiteDemo", "02_Nu
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "03_WhileLoops", "03_WhileLoops\", "{F8593756-7117-4B2C-A5E6-FBAB46B2381E}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "03_WhileLoops", "03_WhileLoops", "{F8593756-7117-4B2C-A5E6-FBAB46B2381E}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_65234"
@@ -69,7 +69,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "03_WhileLoops", "03_WhileLo
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "04_ForLoops", "04_ForLoops\", "{C97D5619-F49B-41D3-814C-265B90A360BB}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "04_ForLoops", "04_ForLoops", "{C97D5619-F49B-41D3-814C-265B90A360BB}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_65452"
@@ -91,7 +91,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "04_ForLoops", "04_ForLoops\
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "05_SwitchBlocks", "05_SwitchBlocks\", "{CDB70AAD-72B1-4CAD-82A1-5DD91A98BEB8}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "05_SwitchBlocks", "05_SwitchBlocks", "{CDB70AAD-72B1-4CAD-82A1-5DD91A98BEB8}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58630"
@@ -113,7 +113,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "05_SwitchBlocks", "05_Switc
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "06_TryParse", "06_TryParse\", "{D78466F1-B2CC-45FF-A759-AC88A52ECB92}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "06_TryParse", "06_TryParse", "{D78466F1-B2CC-45FF-A759-AC88A52ECB92}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_59187"
@@ -135,7 +135,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "06_TryParse", "06_TryParse\
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "07_TernaryOperator", "07_TernaryOperator\", "{7AC8C0B8-36C9-47CA-A0B7-DF80E93CEB3A}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "07_TernaryOperator", "07_TernaryOperator", "{7AC8C0B8-36C9-47CA-A0B7-DF80E93CEB3A}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_61912"
@@ -156,7 +156,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "07_TernaryOperator", "07_Te
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "08_InPlaceEvaluation", "08_InPlaceEvaluation\", "{CFBA9103-718B-4C06-AB63-BCA5444B6894}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "08_InPlaceEvaluation", "08_InPlaceEvaluation", "{CFBA9103-718B-4C06-AB63-BCA5444B6894}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51527"
@@ -177,7 +177,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "08_InPlaceEvaluation", "08_
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "09_LogicalAndOperator", "09_LogicalAndOperator\", "{066DE20C-2848-4551-BC97-86C44F229B50}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "09_LogicalAndOperator", "09_LogicalAndOperator", "{066DE20C-2848-4551-BC97-86C44F229B50}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_63956"
@@ -198,7 +198,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "09_LogicalAndOperator", "09
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "10_LogicalOrOperator", "10_LogicalOrOperator\", "{3A43F43F-9E5D-4375-9076-96E788571759}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "10_LogicalOrOperator", "10_LogicalOrOperator", "{3A43F43F-9E5D-4375-9076-96E788571759}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64082"
@@ -219,7 +219,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "10_LogicalOrOperator", "10_
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "11_ArrayBasics", "11_ArrayBasics\", "{BF75FA23-DCE7-4660-8365-164E58F63EF8}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "11_ArrayBasics", "11_ArrayBasics", "{BF75FA23-DCE7-4660-8365-164E58F63EF8}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64214"
@@ -240,7 +240,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "11_ArrayBasics", "11_ArrayB
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "12_ArrayLoops", "12_ArrayLoops\", "{9FFDD50C-71CD-4472-BB10-9EB75B8A4AD7}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "12_ArrayLoops", "12_ArrayLoops", "{9FFDD50C-71CD-4472-BB10-9EB75B8A4AD7}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52854"
@@ -258,6 +258,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "12_ArrayLoops", "12_ArrayLo
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "52854"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "13_SimpleMethods", "13_SimpleMethods", "{28E3E0B1-2289-4EE7-A98D-6BC31B78CD4F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51599"
+		Debug.AspNetCompiler.PhysicalPath = "13_SimpleMethods\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51599\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51599"
+		Release.AspNetCompiler.PhysicalPath = "13_SimpleMethods\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51599\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51599"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -290,6 +311,8 @@ Global
 		{BF75FA23-DCE7-4660-8365-164E58F63EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FFDD50C-71CD-4472-BB10-9EB75B8A4AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9FFDD50C-71CD-4472-BB10-9EB75B8A4AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E3E0B1-2289-4EE7-A98D-6BC31B78CD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E3E0B1-2289-4EE7-A98D-6BC31B78CD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
